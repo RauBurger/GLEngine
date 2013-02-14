@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLEngine", "GLEngine.vcproj", "{78AD40E2-B5E0-4D8A-8D55-DE9629E98F40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "..\TestApp\TestApp.vcproj", "{6B5F7E69-AD46-4EF0-9C53-1CC6D2BABA3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78AD40E2-B5E0-4D8A-8D55-DE9629E98F40} = {78AD40E2-B5E0-4D8A-8D55-DE9629E98F40}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78AD40E2-B5E0-4D8A-8D55-DE9629E98F40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78AD40E2-B5E0-4D8A-8D55-DE9629E98F40}.Debug|Win32.Build.0 = Debug|Win32
+		{78AD40E2-B5E0-4D8A-8D55-DE9629E98F40}.Release|Win32.ActiveCfg = Release|Win32
+		{78AD40E2-B5E0-4D8A-8D55-DE9629E98F40}.Release|Win32.Build.0 = Release|Win32
+		{6B5F7E69-AD46-4EF0-9C53-1CC6D2BABA3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B5F7E69-AD46-4EF0-9C53-1CC6D2BABA3D}.Debug|Win32.Build.0 = Debug|Win32
+		{6B5F7E69-AD46-4EF0-9C53-1CC6D2BABA3D}.Release|Win32.ActiveCfg = Release|Win32
+		{6B5F7E69-AD46-4EF0-9C53-1CC6D2BABA3D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

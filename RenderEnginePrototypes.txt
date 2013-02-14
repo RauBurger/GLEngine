@@ -1,0 +1,80 @@
+class Object //renderable object
+{
+	virtual void loadModel()
+
+	virtual void renderObject()
+};
+
+class Actor : public Object
+{
+public:
+	virtual void loadModel()
+	{
+		//read in model data
+	}
+
+	virtual renderObject()
+	{
+		.. //setup steps
+		..
+		..
+		glDrawElement(…) final step
+	}
+
+private:
+	GLfloat* verts; //vertex array
+	GLfloat* index; //index array
+	GLfloat* tex; //tex coord array
+
+};
+
+class EventHandler
+{
+	virtual void frameStarted();
+	virtual void frameEnded();
+
+};
+
+class Root : public QApplication
+{
+	Actor* createActor(string name);
+	Object* createObject(string name);
+
+	void go(); //creates app/window if needed
+	
+	void registerEventHandler(EventHandler*);
+
+	startRendering() //call after go
+	{
+		while(render)
+		{
+			handler->frameStarted();
+			for(int i = 0; i < numObj; i++)
+			{
+				obj->renderObject();
+			}
+
+			handler->frameEnded();
+		}
+	}
+
+	void stopRendering()
+	{
+		render = false;
+	}
+
+private:
+	Object* obj; //list of all registered renderable objects
+	string* names; //names of all registered renderable objects
+	int numObj;
+
+	EventHandler* handler;
+
+	bool render;
+}
+
+
+
+11AM-1PM, 3PM-5PM, 7PM-9PM, cardiac care unit, Oakwood hospital
+
+313-593-7380 CCU number

@@ -1,0 +1,330 @@
+TGLEngine
+v7
+r3
+t315023108.209426
+cCheck dependencies
+cCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Camera.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/canvas.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Core.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/cubeprimitive.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/RenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OSXRenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OpenGLView.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BE91B5D0000000000025B59
+t1273568093
+s154457
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BE91B5D0000000000003F84
+t1273568093
+s16260
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004CD4F7840000000000043330
+t1289025412
+s275248
+
+N/Users/robrau1/Desktop/Downloads/FreeImage/libfreeimage.a
+c000000004D096DAB0000000000A8E128
+t1292463531
+s11067688
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp
+c000000004D16E0E700000000000004CC
+t1293344999
+s1228
+i"Camera.h"
+i<OpenGL/gl.h>
+i<windows.h>
+i"gl/gl.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.h
+c000000004CFE5AAD0000000000000294
+t1291737773
+s660
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp
+c000000004D16E89700000000000002B5
+t1293346967
+s693
+i"Core.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.h
+c000000004D16DD4B00000000000002D9
+t1293344075
+s729
+i"OSXRenderWindow.h"
+i"Win32RenderWindow.h"
+i<string>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/EventListener.h
+c000000004D0EEBA10000000000000172
+t1292823457
+s370
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h
+c000000004D16DD66000000000000032A
+t1293344102
+s810
+i"RenderWindow.h"
+i<string>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm
+c000000004D168CC50000000000000F6D
+t1293323461
+s3949
+i"Cocoa/Cocoa.h"
+i"OpenGLView.h"
+i"OSXRenderWindow.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Object.h
+c000000004D082E6300000000000000A2
+t1292381795
+s162
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.h
+c000000004D08236E0000000000000198
+t1292378990
+s408
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm
+c000000004D0A42A4000000000000030F
+t1292518052
+s783
+i"Cocoa/Cocoa.h"
+i"OpenGLView.h"
+i"OSXRenderWindow.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp
+c000000004D16DA620000000000001D13
+t1293343330
+s7443
+i"RenderWindow.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h
+c000000004D16DB97000000000000070A
+t1293343639
+s1802
+i"OpenGL/gl.h"
+i"OpenGL/glu.h"
+i<windows.h>
+i"gl/glew.h"
+i"gl/gl.h"
+i"gl/glu.h"
+i<string>
+i<iostream>
+i<fstream>
+i<map>
+i<math.h>
+i"Object.h"
+i"Camera.h"
+i"EventListener.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Win32RenderWindow.h
+c000000004D16DE9C0000000000000366
+t1293344412
+s870
+i"RenderWindow.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Camera.o
+t1293330300
+s2520
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Core.o
+t1293330300
+s4040
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/GLEngine.LinkFileList
+c000000004D16A77C00000000000003C2
+t1293330300
+s962
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OSXRenderWindow.o
+t2
+s0
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OpenGLView.o
+t2
+s0
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/RenderWindow.o
+t1293330301
+s20756
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/canvas.o
+t1293330300
+s288
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/cubeprimitive.o
+t2
+s0
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/libGLEngine.dylib
+t2
+s0
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp
+c000000004D07B45C0000000000001709
+t1292350556
+s5897
+i<QKeyEvent>
+i<iostream>
+i<fstream>
+i"math.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp
+c000000004D16EAA60000000000001B1E
+t1293347494
+s6942
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<unistd.h>
+i<sys/param.h>
+i<windows.h>
+i"gl/glew.h"
+i"gl/gl.h"
+i"gl/glu.h"
+i"cubeprimitive.h"
+i"freeimage.h"
+i<iostream>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.h
+c000000004D16DED700000000000002FB
+t1293344471
+s763
+i"Object.h"
+i<OpenGL/gl.h>
+i"gl/gl.h"
+
+N/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/usr/include/sys/param.h
+c000000004C4DE4B300000000000027BE
+t1280173235
+s10174
+
+N/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/usr/local/include/FreeImage.h
+c000000004D096EBF000000000000D28F
+t1292463807
+s53903
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315023100#315023100#0(0"0(0#1#0"4231240#0"0#
+
+CCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Camera.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s315023100.047045
+e315023100.236099
+r1
+xCompileC
+xbuild/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Camera.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp315023100#315023100#0(0"0(0#0#69"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp2566718096#1431"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -fvisibility-inlines-hidden -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-generated-files.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-own-target-headers.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-all-target-headers.hmap -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-project-headers.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/include -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Camera.o0#
+
+CCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Core.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s315023100.101229
+e315023100.731683
+r1
+xCompileC
+xbuild/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Core.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp315023100#315023100#0(0"0(0#0#67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp2566718096#1427"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -fvisibility-inlines-hidden -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-generated-files.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-own-target-headers.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-all-target-headers.hmap -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-project-headers.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/include -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/Core.o0#
+
+CCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OSXRenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s315023100.826945
+e315023108.108439
+r0
+xCompileC
+xbuild/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OSXRenderWindow.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm315023100#315023108#0(0"0(0#0#77"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm2566718096#1458"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -fvisibility-inlines-hidden -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-generated-files.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-own-target-headers.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-all-target-headers.hmap -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-project-headers.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/include -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OSXRenderWindow.o2#
+
+CCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OpenGLView.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s315023101.684020
+e315023108.209298
+r0
+xCompileC
+xbuild/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OpenGLView.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm315023101#315023108#0(0"0(0#0#72"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm2566718096#1448"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -fvisibility-inlines-hidden -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-generated-files.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-own-target-headers.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-all-target-headers.hmap -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-project-headers.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/include -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/OpenGLView.o2#
+
+CCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/RenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s315023100.731812
+e315023101.683699
+r1
+xCompileC
+xbuild/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/RenderWindow.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp315023100#315023101#0(0"0(0#0#75"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp2566718096#1443"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -fvisibility-inlines-hidden -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-generated-files.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-own-target-headers.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-all-target-headers.hmap -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-project-headers.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/include -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/RenderWindow.o0#
+
+CCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/canvas.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s315023100.048629
+e315023100.101095
+r1
+xCompileC
+xbuild/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/canvas.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp315023100#315023100#0(0"0(0#0#69"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp2566718096#1431"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -fvisibility-inlines-hidden -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-generated-files.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-own-target-headers.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-all-target-headers.hmap -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-project-headers.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/include -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/canvas.o0#
+
+CCompileC build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/cubeprimitive.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s315023100.236242
+e315023100.826673
+r0
+xCompileC
+xbuild/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/cubeprimitive.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp: In member function 'void CubePrimitive::loadDefaultTexture()':
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp:293: error: 'glewInit' was not declared in this scope
+lSLF07#2@84"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp315023100#315023100#0(272"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp: In member function 'void CubePrimitive::loadDefaultTexture()':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp:293: error: 'glewInit' was not declared in this scope1(4@41"'glewInit' was not declared in this scope315023100#141#131#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp315040294#293#0#293#0#34"'*' was not declared in this scope0(0#0#76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp2566718096#1445"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -fvisibility-inlines-hidden -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-generated-files.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-own-target-headers.hmap -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-all-target-headers.hmap -iquote /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/GLEngine-project-headers.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/include -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/DerivedSources -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Release/GLEngine.build/Objects-normal/i386/cubeprimitive.o1#
+
+CLd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Release/libGLEngine.dylib normal i386
+r0
+

@@ -1,0 +1,10 @@
+keep an internal list of objects in the game.
+
+RTSRoot
+	Unit* units[]
+	Building* buildings[]
+
+
+root = new RTSRoot("(configFolderPath)"); //loads all config files which
+					  //tells the root how many/what 					  //kinds of units/buildings there 					  //are.
+

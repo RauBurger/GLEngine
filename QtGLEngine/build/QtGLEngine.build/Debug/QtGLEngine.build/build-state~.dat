@@ -1,0 +1,1744 @@
+TQtGLEngine
+v7
+r0
+t314199049.865961
+cCheck dependencies
+cProcessInfoPlistFile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Info.plist Info.plist
+cPhaseScriptExecution "Qt Qmake" /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-D7BA7D76DAB5DD13389D6332.sh
+cPhaseScriptExecution "Qt Preprocessors" /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-A0A52A2ADF7A1E2A99738674.sh
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/MacOS/QtGLEngine normal i386
+cCpResource build/Debug/QtGLEngine.app/Contents/Resources/fragment.fs fragment.fs
+cCpResource build/Debug/QtGLEngine.app/Contents/Resources/vertex.vs vertex.vs
+cTouch /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app
+cPBXCp QtGLEngine.app build/Debug/QtGLEngine.app
+
+N/Library/Frameworks/Qt3Support.framework/Headers/q3cstring.h
+c000000004C8A594A0000000000002795
+t1284135242
+s10133
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/Qt3Support.framework/Headers/q3valuelist.h
+c000000004C8A594B0000000000002081
+t1284135243
+s8321
+i<QtCore/qalgorithms.h>
+i<QtCore/qdatastream.h>
+i<QtCore/qlinkedlist.h>
+i<QtCore/qlist.h>
+i<iterator>
+i<list>
+
+N/Library/Frameworks/QtCore.framework
+c000000004C9CEF500000000000000154
+t1285353296
+s340
+
+N/Library/Frameworks/QtCore.framework/Headers/QPoint
+c000000004C8A59470000000000000014
+t1284135239
+s20
+i"qpoint.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QPointF
+c000000004C8A59470000000000000014
+t1284135239
+s20
+i"qpoint.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QTimer
+c000000004C8A59470000000000000014
+t1284135239
+s20
+i"qtimer.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/qalgorithms.h
+c000000004C8A59470000000000004026
+t1284135239
+s16422
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic.h
+c000000004C8A59470000000000001AB4
+t1284135239
+s6836
+i<QtCore/qglobal.h>
+i<QtCore/qbasicatomic.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_alpha.h
+c000000004C8A594700000000000065B1
+t1284135239
+s26033
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_arch.h
+c000000004C8A59470000000000000DC1
+t1284135239
+s3521
+i"QtCore/qglobal.h"
+i"QtCore/qatomic_vxworks.h"
+i"QtCore/qatomic_alpha.h"
+i"QtCore/qatomic_arm.h"
+i"QtCore/qatomic_armv6.h"
+i"QtCore/qatomic_avr32.h"
+i"QtCore/qatomic_bfin.h"
+i"QtCore/qatomic_generic.h"
+i"QtCore/qatomic_i386.h"
+i"QtCore/qatomic_ia64.h"
+i"QtCore/qatomic_macosx.h"
+i"QtCore/qatomic_mips.h"
+i"QtCore/qatomic_parisc.h"
+i"QtCore/qatomic_powerpc.h"
+i"QtCore/qatomic_s390.h"
+i"QtCore/qatomic_sparc.h"
+i"QtCore/qatomic_windows.h"
+i"QtCore/qatomic_windowsce.h"
+i"QtCore/qatomic_x86_64.h"
+i"QtCore/qatomic_symbian.h"
+i"QtCore/qatomic_sh.h"
+i"QtCore/qatomic_sh4a.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_arm.h
+c000000004C8A59470000000000002EFE
+t1284135239
+s12030
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_armv6.h
+c000000004C8A59470000000000003ABC
+t1284135239
+s15036
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_avr32.h
+c000000004C8A59470000000000001D39
+t1284135239
+s7481
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_bfin.h
+c000000004C8A59470000000000002747
+t1284135239
+s10055
+i<asm/fixed_code.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_bootstrap.h
+c000000004C8A59470000000000000C1D
+t1284135239
+s3101
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_generic.h
+c000000004C8A594700000000000021FC
+t1284135239
+s8700
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_i386.h
+c000000004C8A59470000000000002AC2
+t1284135239
+s10946
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_ia64.h
+c000000004C8A594700000000000064F4
+t1284135239
+s25844
+i<ia64intrin.h>
+i<ia64/sys/inline.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_macosx.h
+c000000004C8A594700000000000008E8
+t1284135239
+s2280
+i<QtCore/qatomic_x86_64.h>
+i<QtCore/qatomic_i386.h>
+i<QtCore/qatomic_powerpc.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_mips.h
+c000000004C8A59470000000000006E38
+t1284135239
+s28216
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_parisc.h
+c000000004C8A594700000000000020CD
+t1284135239
+s8397
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_powerpc.h
+c000000004C8A5947000000000000597D
+t1284135239
+s22909
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_s390.h
+c000000004C8A59470000000000003772
+t1284135239
+s14194
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_sh.h
+c000000004C8A59470000000000002406
+t1284135239
+s9222
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_sh4a.h
+c000000004C8A5947000000000000460D
+t1284135239
+s17933
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_sparc.h
+c000000004C8A5947000000000000424F
+t1284135239
+s16975
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_symbian.h
+c000000004C8A59470000000000002BE7
+t1284135239
+s11239
+i<QtCore/qglobal.h>
+i<e32std.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_vxworks.h
+c000000004C8A5947000000000000213A
+t1284135239
+s8506
+i<QtCore/qatomic_powerpc.h>
+i<vxWorksCommon.h>
+i<taskLib.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_windows.h
+c000000004C8A59470000000000003FA9
+t1284135239
+s16297
+i"QtCore/qatomic_i386.h"
+i"QtCore/qatomic_x86_64.h"
+i<winbase.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_windowsce.h
+c000000004C8A59470000000000000873
+t1284135239
+s2163
+i<QtCore/qglobal.h>
+i"QtCore/qatomic_windows.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_x86_64.h
+c000000004C8A59470000000000002AE7
+t1284135239
+s10983
+
+N/Library/Frameworks/QtCore.framework/Headers/qbasicatomic.h
+c000000004C8A59470000000000001922
+t1284135239
+s6434
+i<QtCore/qglobal.h>
+i<QtCore/qatomic_bootstrap.h>
+i<QtCore/qatomic_arch.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbasictimer.h
+c000000004C8A594700000000000009BC
+t1284135239
+s2492
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbuffer.h
+c000000004C8A59470000000000000D13
+t1284135239
+s3347
+i<QtCore/qiodevice.h>
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbytearray.h
+c000000004C8A59470000000000005C3C
+t1284135239
+s23612
+i<QtCore/qatomic.h>
+i<QtCore/qnamespace.h>
+i<string.h>
+i<stdarg.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qchar.h
+c000000004C8A59470000000000003308
+t1284135239
+s13064
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qconfig.h
+c000000004C8A594700000000000014A5
+t1284135239
+s5285
+
+N/Library/Frameworks/QtCore.framework/Headers/qcoreapplication.h
+c000000004C8A59470000000000002790
+t1284135239
+s10128
+i<QtCore/qobject.h>
+i<QtCore/qcoreevent.h>
+i<QtCore/qeventloop.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qcoreevent.h
+c000000004C8A59470000000000003F82
+t1284135239
+s16258
+i<QtCore/qnamespace.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qobjectdefs.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qdatastream.h
+c000000004C8A59470000000000002CA9
+t1284135239
+s11433
+i<QtCore/qscopedpointer.h>
+i<QtCore/qiodevice.h>
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qeventloop.h
+c000000004C8A59470000000000000C6D
+t1284135239
+s3181
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfeatures.h
+c000000004C8A59470000000000005467
+t1284135239
+s21607
+
+N/Library/Frameworks/QtCore.framework/Headers/qglobal.h
+c000000004C8A59470000000000014F7B
+t1284135239
+s85883
+i<stddef.h>
+i<QtCore/qconfig.h>
+i<AvailabilityMacros.h>
+i<e32def.h>
+i<QtCore/qfeatures.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qhash.h
+c000000004C8A5947000000000000784A
+t1284135239
+s30794
+i<QtCore/qatomic.h>
+i<QtCore/qchar.h>
+i<QtCore/qiterator.h>
+i<QtCore/qlist.h>
+i<QtCore/qpair.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qiodevice.h
+c000000004C8A594700000000000020AE
+t1284135239
+s8366
+i<QtCore/qobject.h>
+i<QtCore/qobjectdefs.h>
+i<QtCore/qscopedpointer.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qiterator.h
+c000000004C8A594700000000000022FA
+t1284135239
+s8954
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qline.h
+c000000004C8A594700000000000026B4
+t1284135239
+s9908
+i<QtCore/qpoint.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qlinkedlist.h
+c000000004C8A59470000000000003C92
+t1284135239
+s15506
+i<QtCore/qiterator.h>
+i<QtCore/qatomic.h>
+i<iterator>
+i<list>
+
+N/Library/Frameworks/QtCore.framework/Headers/qlist.h
+c000000004C8A594700000000000072A5
+t1284135239
+s29349
+i<QtCore/qiterator.h>
+i<QtCore/qatomic.h>
+i<QtCore/qalgorithms.h>
+i<iterator>
+i<list>
+i<new>
+i<limits.h>
+i<string.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmap.h
+c000000004C8A5947000000000000833D
+t1284135239
+s33597
+i<QtCore/qatomic.h>
+i<QtCore/qiterator.h>
+i<QtCore/qlist.h>
+i<map>
+i<new>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmargins.h
+c000000004C8A594700000000000010AD
+t1284135239
+s4269
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmetatype.h
+c000000004C8A594700000000000034DB
+t1284135239
+s13531
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmimedata.h
+c000000004C8A59470000000000000CE3
+t1284135239
+s3299
+i<QtCore/qvariant.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qnamespace.h
+c000000004C8A5947000000000000D79F
+t1284135239
+s55199
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qobject.h
+c000000004C8A59470000000000003FC3
+t1284135239
+s16323
+i<QtCore/qobjectdefs.h>
+i<QtCore/qstring.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qlist.h>
+i<QtCore/qcoreevent.h>
+i<QtCore/qscopedpointer.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qobjectdefs.h
+c000000004C8A59470000000000004478
+t1284135239
+s17528
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qpair.h
+c000000004C8A59470000000000000F2C
+t1284135239
+s3884
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qpoint.h
+c000000004C8A594700000000000024BF
+t1284135239
+s9407
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qpointer.h
+c000000004C8A59470000000000001475
+t1284135239
+s5237
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qrect.h
+c000000004C8A594700000000000056D2
+t1284135239
+s22226
+i<QtCore/qsize.h>
+i<QtCore/qpoint.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qregexp.h
+c000000004C8A59470000000000001589
+t1284135239
+s5513
+i<QtCore/qstring.h>
+i<new>
+
+N/Library/Frameworks/QtCore.framework/Headers/qscopedpointer.h
+c000000004C8A5947000000000000155A
+t1284135239
+s5466
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qset.h
+c000000004C8A594700000000000035BF
+t1284135239
+s13759
+i<QtCore/qhash.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qshareddata.h
+c000000004C8A59470000000000001DCB
+t1284135239
+s7627
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsharedpointer.h
+c000000004C8A5947000000000000170F
+t1284135239
+s5903
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<QtCore/qshareddata.h>
+i<QtCore/qsharedpointer_impl.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsharedpointer_impl.h
+c000000004C8A594700000000000068FD
+t1284135239
+s26877
+i<new>
+i<QtCore/qatomic.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsize.h
+c000000004C8A5947000000000000286F
+t1284135239
+s10351
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstring.h
+c000000004C8A5947000000000000E808
+t1284135239
+s59400
+i<QtCore/qchar.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qatomic.h>
+i<QtCore/qnamespace.h>
+i<Qt3Support/q3cstring.h>
+i<string>
+i<string>
+i<stdarg.h>
+i<QtCore/qstringbuilder.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstringbuilder.h
+c000000004C8A5947000000000000243D
+t1284135239
+s9277
+i<QtCore/qstring.h>
+i<QtCore/qmap.h>
+i<string.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstringlist.h
+c000000004C8A5947000000000000263B
+t1284135239
+s9787
+i<QtCore/qalgorithms.h>
+i<QtCore/qdatastream.h>
+i<QtCore/qlist.h>
+i<QtCore/qregexp.h>
+i<QtCore/qstring.h>
+i<QtCore/qstringmatcher.h>
+i<Qt3Support/q3valuelist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstringmatcher.h
+c000000004C8A59470000000000000D10
+t1284135239
+s3344
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qt_windows.h
+c000000004C8A594700000000000010C5
+t1284135239
+s4293
+i<windows.h>
+i<ceconfig.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtimer.h
+c000000004C8A59470000000000000DD7
+t1284135239
+s3543
+i<QtCore/qbasictimer.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qvariant.h
+c000000004C8A594700000000000048A0
+t1284135239
+s18592
+i<QtCore/qatomic.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qlist.h>
+i<QtCore/qmetatype.h>
+i<QtCore/qmap.h>
+i<QtCore/qhash.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qvector.h
+c000000004C8A5947000000000000664A
+t1284135239
+s26186
+i<QtCore/qiterator.h>
+i<QtCore/qatomic.h>
+i<QtCore/qalgorithms.h>
+i<QtCore/qlist.h>
+i<iterator>
+i<vector>
+i<stdlib.h>
+i<string.h>
+i<QtCore/QPointF>
+i<QtCore/QPoint>
+
+N/Library/Frameworks/QtCore.framework/QtCore
+c000000004C8A5A7D00000000005EEB20
+t1284135549
+s6220576
+
+N/Library/Frameworks/QtCore.framework/Versions/4/Headers/QTimer
+c000000004C8A59470000000000000014
+t1284135239
+s20
+i"qtimer.h"
+
+N/Library/Frameworks/QtCore.framework/Versions/4/Headers/qtimer.h
+c000000004C8A59470000000000000DD7
+t1284135239
+s3543
+i<QtCore/qbasictimer.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework
+c000000004C9CEF510000000000000176
+t1285353297
+s374
+
+N/Library/Frameworks/QtGui.framework/Headers/qbrush.h
+c000000004C8A59470000000000002513
+t1284135239
+s9491
+i<QtCore/qpair.h>
+i<QtCore/qpoint.h>
+i<QtCore/qvector.h>
+i<QtCore/qscopedpointer.h>
+i<QtGui/qcolor.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qtransform.h>
+i<QtGui/qimage.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qcolor.h
+c000000004C8A594700000000000022B2
+t1284135239
+s8882
+i<QtGui/qrgb.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qcursor.h
+c000000004C8A5947000000000000142A
+t1284135239
+s5162
+i<QtCore/qpoint.h>
+i<QtGui/qwindowdefs.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qdesktopwidget.h
+c000000004C8A59470000000000000E11
+t1284135239
+s3601
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qdrag.h
+c000000004C8A59480000000000000C9E
+t1284135240
+s3230
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qdrawutil.h
+c000000004C8A59480000000000001E53
+t1284135240
+s7763
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtCore/qmargins.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qevent.h
+c000000004C8A59480000000000006C65
+t1284135240
+s27749
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtGui/qregion.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtGui/qkeysequence.h>
+i<QtCore/qcoreevent.h>
+i<QtGui/qmime.h>
+i<QtGui/qdrag.h>
+i<QtCore/qvariant.h>
+i<QtCore/qmap.h>
+i<QtCore/qset.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfont.h
+c000000004C8A59480000000000002781
+t1284135240
+s10113
+i<QtGui/qwindowdefs.h>
+i<QtCore/qstring.h>
+i<QtCore/qsharedpointer.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfontinfo.h
+c000000004C8A59480000000000000B24
+t1284135240
+s2852
+i<QtGui/qfont.h>
+i<QtCore/qsharedpointer.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfontmetrics.h
+c000000004C8A59480000000000001A84
+t1284135240
+s6788
+i<QtGui/qfont.h>
+i<QtCore/qsharedpointer.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qimage.h
+c000000004C8A5948000000000000373E
+t1284135240
+s14142
+i<QtGui/qtransform.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qrgb.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qrect.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qkeysequence.h
+c000000004C8A59480000000000001A82
+t1284135240
+s6786
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmacdefines_mac.h
+c000000004C8A594800000000000019C8
+t1284135240
+s6600
+i<QtCore/qglobal.h>
+i<Cocoa/Cocoa.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmatrix.h
+c000000004C8A59480000000000001AF0
+t1284135240
+s6896
+i<QtGui/qpolygon.h>
+i<QtGui/qregion.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qline.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+i<QtGui/qwmatrix.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmime.h
+c000000004C8A594800000000000018D9
+t1284135240
+s6361
+i<QtCore/qmimedata.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpaintdevice.h
+c000000004C8A5948000000000000178A
+t1284135240
+s6026
+i<QtGui/qwindowdefs.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpaintengine.h
+c000000004C8A59480000000000002D63
+t1284135240
+s11619
+i<QtCore/qnamespace.h>
+i<QtCore/qobjectdefs.h>
+i<QtCore/qscopedpointer.h>
+i<QtGui/qpainter.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpainter.h
+c000000004C8A59480000000000008521
+t1284135240
+s34081
+i<QtCore/qnamespace.h>
+i<QtCore/qrect.h>
+i<QtCore/qpoint.h>
+i<QtCore/qscopedpointer.h>
+i<QtGui/qpixmap.h>
+i<QtGui/qimage.h>
+i<QtGui/qtextoption.h>
+i<QtGui/qdrawutil.h>
+i<QtGui/qpolygon.h>
+i<QtGui/qpen.h>
+i<QtGui/qbrush.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qtransform.h>
+i<QtGui/qfontinfo.h>
+i<QtGui/qfontmetrics.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpainterpath.h
+c000000004C8A5948000000000000373E
+t1284135240
+s14142
+i<QtGui/qmatrix.h>
+i<QtCore/qglobal.h>
+i<QtCore/qrect.h>
+i<QtCore/qline.h>
+i<QtCore/qvector.h>
+i<QtCore/qscopedpointer.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpalette.h
+c000000004C8A5948000000000000328F
+t1284135240
+s12943
+i<QtGui/qwindowdefs.h>
+i<QtGui/qcolor.h>
+i<QtGui/qbrush.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpen.h
+c000000004C8A59480000000000001020
+t1284135240
+s4128
+i<QtGui/qcolor.h>
+i<QtGui/qbrush.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpixmap.h
+c000000004C8A59480000000000002F8C
+t1284135240
+s12172
+i<QtGui/qpaintdevice.h>
+i<QtGui/qcolor.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtCore/qsharedpointer.h>
+i<QtGui/qimage.h>
+i<QtGui/qtransform.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpolygon.h
+c000000004C8A59480000000000001930
+t1284135240
+s6448
+i<QtCore/qvector.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qregion.h
+c000000004C8A5949000000000000207F
+t1284135241
+s8319
+i<QtCore/qatomic.h>
+i<QtCore/qrect.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qrgb.h
+c000000004C8A59490000000000000D24
+t1284135241
+s3364
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qsizepolicy.h
+c000000004C8A59490000000000002168
+t1284135241
+s8552
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextoption.h
+c000000004C8A59490000000000001398
+t1284135241
+s5016
+i<QtCore/qnamespace.h>
+i<QtCore/qchar.h>
+i<QtCore/qmetatype.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtransform.h
+c000000004C8A59490000000000002CA9
+t1284135241
+s11433
+i<QtGui/qmatrix.h>
+i<QtGui/qpainterpath.h>
+i<QtGui/qpolygon.h>
+i<QtGui/qregion.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qline.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtransportauth_qws.h
+c000000004C8A59490000000000001DF8
+t1284135241
+s7672
+i<QtCore/qglobal.h>
+i<QtCore/qobject.h>
+i<QtCore/qhash.h>
+i<QtCore/qstring.h>
+i<QtCore/qbuffer.h>
+i<QtCore/qpointer.h>
+i<sys/types.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwidget.h
+c000000004C8A594900000000000095E9
+t1284135241
+s38377
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtCore/qmargins.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qpalette.h>
+i<QtGui/qfont.h>
+i<QtGui/qfontmetrics.h>
+i<QtGui/qfontinfo.h>
+i<QtGui/qsizepolicy.h>
+i<QtGui/qregion.h>
+i<QtGui/qbrush.h>
+i<QtGui/qcursor.h>
+i<QtGui/qkeysequence.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwindowdefs.h
+c000000004C8A59490000000000000EF5
+t1284135241
+s3829
+i<QtCore/qobjectdefs.h>
+i<QtCore/qnamespace.h>
+i<QtGui/qmacdefines_mac.h>
+i<QtGui/qwindowdefs_win.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwindowdefs_win.h
+c000000004C8A59490000000000000D23
+t1284135241
+s3363
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwmatrix.h
+c000000004C8A59490000000000000880
+t1284135241
+s2176
+i<QtGui/qmatrix.h>
+
+N/Library/Frameworks/QtGui.framework/QtGui
+c000000004C8A5A8000000000017EEDB0
+t1284135552
+s25095600
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QApplication
+c000000004C8A5947000000000000001A
+t1284135239
+s26
+i"qapplication.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QImage
+c000000004C8A59480000000000000014
+t1284135240
+s20
+i"qimage.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QKeyEvent
+c000000004C8A59480000000000000014
+t1284135240
+s20
+i"qevent.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QWidget
+c000000004C8A59490000000000000015
+t1284135241
+s21
+i"qwidget.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qapplication.h
+c000000004C8A59470000000000003984
+t1284135239
+s14724
+i<QtCore/qcoreapplication.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qpoint.h>
+i<QtCore/qsize.h>
+i<QtGui/qcursor.h>
+i<QtGui/qdesktopwidget.h>
+i<QtGui/qwidget.h>
+i<QtGui/qpalette.h>
+i<QtGui/qrgb.h>
+i<QtGui/qtransportauth_qws.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qevent.h
+c000000004C8A59480000000000006C65
+t1284135240
+s27749
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtGui/qregion.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtGui/qkeysequence.h>
+i<QtCore/qcoreevent.h>
+i<QtGui/qmime.h>
+i<QtGui/qdrag.h>
+i<QtCore/qvariant.h>
+i<QtCore/qmap.h>
+i<QtCore/qset.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qimage.h
+c000000004C8A5948000000000000373E
+t1284135240
+s14142
+i<QtGui/qtransform.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qrgb.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qrect.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwidget.h
+c000000004C8A594900000000000095E9
+t1284135241
+s38377
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtCore/qmargins.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qpalette.h>
+i<QtGui/qfont.h>
+i<QtGui/qfontmetrics.h>
+i<QtGui/qfontinfo.h>
+i<QtGui/qsizepolicy.h>
+i<QtGui/qregion.h>
+i<QtGui/qbrush.h>
+i<QtGui/qcursor.h>
+i<QtGui/qkeysequence.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtOpenGL.framework
+c000000004C9CEF520000000000000154
+t1285353298
+s340
+
+N/Library/Frameworks/QtOpenGL.framework/Headers/QGLWidget
+c000000004C8A594A0000000000000011
+t1284135242
+s17
+i"qgl.h"
+
+N/Library/Frameworks/QtOpenGL.framework/Headers/qgl.h
+c000000004C8A594A000000000000512C
+t1284135242
+s20780
+i<QtGui/qwidget.h>
+i<QtGui/qpaintengine.h>
+i<QtOpenGL/qglcolormap.h>
+i<QtCore/qmap.h>
+i<QtCore/qscopedpointer.h>
+i<QtCore/qt_windows.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GLES/gl.h>
+i<GLES2/gl2.h>
+i<GL/gl.h>
+i<GL/glu.h>
+
+N/Library/Frameworks/QtOpenGL.framework/Headers/qglcolormap.h
+c000000004C8A594A0000000000000CDA
+t1284135242
+s3290
+i<QtGui/qcolor.h>
+i<QtCore/qvector.h>
+
+N/Library/Frameworks/QtOpenGL.framework/QtOpenGL
+c000000004C8A5A8100000000001F8190
+t1284135553
+s2064784
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BE91B5D0000000000025B59
+t1273568093
+s154457
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BE91B5D0000000000003F84
+t1273568093
+s16260
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004CD4F7840000000000043330
+t1289025412
+s275248
+
+N/Users/robrau1/Desktop/Downloads/FreeImage/libfreeimage.a
+c000000004D096DAB0000000000A8E128
+t1292463531
+s11067688
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp
+c000000004D083F6D0000000000000486
+t1292386157
+s1158
+i"Camera.h"
+i<OpenGL/gl.h>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.h
+c000000004CFE5AAD0000000000000294
+t1291737773
+s660
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp
+c000000004D082DD40000000000000198
+t1292381652
+s408
+i"Core.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.h
+c000000004D082DB70000000000000260
+t1292381623
+s608
+i"OSXRenderWindow.h"
+i<string>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h
+c000000004D082F8D000000000000036F
+t1292382093
+s879
+i"RenderWindow.h"
+i<string>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm
+c000000004D08B7FA0000000000001BBE
+t1292417018
+s7102
+i"Cocoa/Cocoa.h"
+i"OpenGLView.h"
+i"OSXRenderWindow.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Object.h
+c000000004D082E6300000000000000A2
+t1292381795
+s162
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.h
+c000000004D08236E0000000000000198
+t1292378990
+s408
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m
+c000000004D07E2E5000000000000037E
+t1292362469
+s894
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm
+c000000004D0824B800000000000002D6
+t1292379320
+s726
+i"Cocoa/Cocoa.h"
+i"OpenGLView.h"
+i"OSXRenderWindow.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/QtGLEngine.app
+t1292506249
+s102
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp
+c000000004D082C4100000000000009EA
+t1292381249
+s2538
+i"RenderWindow.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h
+c000000004D082D2000000000000004CD
+t1292381472
+s1229
+i"OpenGL/gl.h"
+i"OpenGL/glu.h"
+i<string>
+i<iostream>
+i<fstream>
+i"Object.h"
+i"Camera.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app
+t1292506249
+s102
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Info.plist
+t1292506243
+s576
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/MacOS/QtGLEngine
+t1292506249
+s2880256
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/PkgInfo
+t1292506243
+s8
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources/QtCore.framework
+t1292278432
+s340
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources/QtGui.framework
+t2
+s0
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources/QtOpenGL.framework
+t1292278428
+s340
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources/fragment.fs
+t1292506249
+s1088
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources/vertex.vs
+t1292506249
+s869
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o
+t1292506244
+s7892
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o
+t1292506245
+s51704
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o
+t1292506248
+s75296
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o
+t1292506249
+s61492
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/QtGLEngine.LinkFileList
+c000000004D0A14830000000000000446
+t1292506243
+s1094
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o
+t1292506246
+s94020
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o
+t1292506244
+s1236
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o
+t1292506245
+s85388
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o
+t1292506246
+s51352
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/moc_canvas.o
+t1292505246
+s1240
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-A0A52A2ADF7A1E2A99738674.sh
+c000000004D0A14830000000000000079
+t1292506243
+s121
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-D7BA7D76DAB5DD13389D6332.sh
+c000000004D0A14830000000000000078
+t1292506243
+s120
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp
+c000000004D07B45C0000000000001709
+t1292350556
+s5897
+i<QKeyEvent>
+i<iostream>
+i<fstream>
+i"math.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.h
+c000000004D07B3FB000000000000041C
+t1292350459
+s1052
+i<QtOpenGL/QGLWidget>
+i<QtCore/QTimer>
+i<QGLWidget>
+i<QTimer>
+i<vector>
+i<string>
+i"Object.h"
+i"cubeprimitive.h"
+i"Camera.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp
+c000000004D0A1073000000000000195D
+t1292505203
+s6493
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i"cubeprimitive.h"
+i"freeimage.h"
+i<iostream>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.h
+c000000004D0A109D00000000000002CA
+t1292505245
+s714
+i"Object.h"
+i<OpenGL/gl.h>
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/fragment.fs
+c000000004D08419F0000000000000440
+t1292386719
+s1088
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp
+c000000004D08347F0000000000000162
+t1292383359
+s354
+i"Core.h"
+i"cubeprimitive.h"
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp
+c000000004D0A109D0000000000000000
+t1292505245
+s0
+
+N/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/vertex.vs
+c000000004D08413C0000000000000365
+t1292386620
+s869
+
+N/usr/include/AvailabilityMacros.h
+c000000004A8D4DF70000000000006724
+t1250774519
+s26404
+
+N/usr/include/limits.h
+c000000004AC59C81000000000000145A
+t1254464641
+s5210
+
+N/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/usr/include/pthread.h
+c000000004AC59C8100000000000038F0
+t1254464641
+s14576
+
+N/usr/include/stdarg.h
+c000000004AC59C8100000000000000EA
+t1254464641
+s234
+
+N/usr/include/stddef.h
+c000000004AC59C810000000000001404
+t1254464641
+s5124
+
+N/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/usr/include/sys/types.h
+c000000004C4DE4B40000000000002905
+t1280173236
+s10501
+
+N/usr/local/include/FreeImage.h
+c000000004D096EBF000000000000D28F
+t1292463807
+s53903
+
+NInfo.plist
+c000000004D0696FB000000000000025C
+t1292277499
+s604
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314199043#314199043#0(0"0(0#1#0"2566718096#0"0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s314043904.829517
+e314043905.061738
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@77"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp314043904#314043905#0(0"0(0#0#69"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp2566718096#1416"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s314199044.394046
+e314199044.502474
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp314199044#314199044#0(0"0(0#0#69"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp2566718096#1196"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Camera.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Camera.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s314043904.952683
+e314043905.706175
+r0
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:16: error: invalid use of undefined type 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: ISO C++ forbids declaration of 'NSTimer' with no type
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: expected ';' before '*' token
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: ISO C++ forbids declaration of 'NSWindow' with no type
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: expected ';' before '*' token
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp: In member function 'RenderWindow* Core::createRenderWindow(std::string, int, int, bool)':
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:16: error: cannot convert 'OSXRenderWindow*' to 'RenderWindow*' in assignment
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:17: error: invalid use of undefined type 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp: At global scope:
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'name'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'width'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'height'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'fullScreen'
+lSLF07#2@75"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043904#314043905#0(1878"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:16: error: invalid use of undefined type 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: ISO C++ forbids declaration of 'NSTimer' with no type/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: expected ';' before '*' token/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: ISO C++ forbids declaration of 'NSWindow' with no type/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: expected ';' before '*' token/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp: In member function 'RenderWindow* Core::createRenderWindow(std::string, int, int, bool)':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:16: error: cannot convert 'OSXRenderWindow*' to 'RenderWindow*' in assignment/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:17: error: invalid use of undefined type 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp: At global scope:/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'name'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'width'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'height'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp:14: warning: unused parameter 'fullScreen'14(4@51"Invalid use of undefined type 'struct RenderWindow'314043905#0#140#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#16#0#16#0#0"0(4@44"Forward declaration of 'struct RenderWindow'314043905#140#133#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#14#0#14#0#0"0(4@53"ISO C++ forbids declaration of 'NSTimer' with no type314043905#273#142#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#29#0#29#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token314043905#415#118#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#29#0#29#0#19"expected * before *0(4@54"ISO C++ forbids declaration of 'NSWindow' with no type314043905#533#143#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#30#0#30#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token314043905#676#118#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#30#0#30#0#19"expected * before *0(4@66"Cannot convert 'OSXRenderWindow*' to 'RenderWindow*' in assignment314043905#953#146#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043547#16#0#16#0#0"0(4@51"Invalid use of undefined type 'struct RenderWindow'314043905#1099#131#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043547#17#0#17#0#0"0(4@44"Forward declaration of 'struct RenderWindow'314043905#1230#133#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#14#0#14#0#0"0(23@16"At global scope:314043905#1363#86#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043547#0#0#0#0#0"0(22@23"Unused parameter 'name'314043905#1449#105#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043547#14#0#14#0#20"unused parameter '*'0(22@24"Unused parameter 'width'314043905#1554#106#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043547#14#0#14#0#20"unused parameter '*'0(22@25"Unused parameter 'height'314043905#1660#107#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043547#14#0#14#0#20"unused parameter '*'0(22@29"Unused parameter 'fullScreen'314043905#1767#111#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314043547#14#0#14#0#20"unused parameter '*'0(0#0#67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp2566718096#1412"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o1#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s314199044.437884
+e314199045.438676
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp314199044#314199045#0(0"0(0#0#67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp2566718096#1192"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Core.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/Core.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_0
+s314043905.706312
+e314043905.846901
+r0
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_0
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:16: error: invalid use of undefined type 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: ISO C++ forbids declaration of 'NSTimer' with no type
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: expected ';' before '*' token
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: ISO C++ forbids declaration of 'NSWindow' with no type
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: expected ';' before '*' token
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm: In member function 'int OSXRenderWindow::_start()':
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm:28: warning: control reaches end of non-void function
+lSLF07#2@85"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm314043905#314043905#0(1057"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:16: error: invalid use of undefined type 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: ISO C++ forbids declaration of 'NSTimer' with no type/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: expected ';' before '*' token/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: ISO C++ forbids declaration of 'NSWindow' with no type/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: expected ';' before '*' token/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm: In member function 'int OSXRenderWindow::_start()':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm:28: warning: control reaches end of non-void function7(4@51"Invalid use of undefined type 'struct RenderWindow'314043905#0#140#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#16#0#16#0#0"0(4@44"Forward declaration of 'struct RenderWindow'314043905#140#133#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#14#0#14#0#0"0(4@53"ISO C++ forbids declaration of 'NSTimer' with no type314043905#273#142#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#29#0#29#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token314043905#415#118#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#29#0#29#0#19"expected * before *0(4@54"ISO C++ forbids declaration of 'NSWindow' with no type314043905#533#143#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#30#0#30#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token314043905#676#118#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#30#0#30#0#19"expected * before *0(22@40"Control reaches end of non-void function314043905#925#132#0(6@77"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm314043307#28#0#28#0#40"control reaches end of non-void function0(0#0#77"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm2566718096#1466"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-call-cxx-cdtors -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o1#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s314199045.449219
+e314199048.300773
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm: In member function 'void OSXRenderWindow::setupRenderWindow()':
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm:262: warning: unused variable 'attributes'
+lSLF07#2@85"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm314199045#314199048#0(264"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm: In member function 'void OSXRenderWindow::setupRenderWindow()':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm:262: warning: unused variable 'attributes'1(22@28"Unused variable 'attributes'314199048#143#121#0(6@77"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm314109818#262#0#262#0#19"unused variable '*'0(0#0#77"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm2566718096#1223"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.mm -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OSXRenderWindow.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314055269.493939
+e314055270.546854
+r0
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#314055270#0(2732"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:11,                 from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:11:/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'RenderWindow'In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:11:/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'NSTimer'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'NSWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'NSOpenGLContext'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'NSView'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'NSOpenGLView'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'OSXRenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:16: error: expected specifier-qualifier-list before 'OSXRenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:20: error: expected ')' before 'OSXRenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:37: error: expected ')' before 'OSXRenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m: In function '-[OpenGLView initWithOSXWindow:]':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:41: error: 'window' undeclared (first use in this function)/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:41: error: (Each undeclared identifier is reported only once/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:41: error: for each function it appears in.)/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m: In function '-[OpenGLView drawRect:]':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:48: error: 'window' undeclared (first use in this function)/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m: At top level:/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m:47: warning: unused parameter 'dirtyRect'14(4@70"Expected '=', ',', ';', 'asm' or '__attribute__' before 'RenderWindow'314055270#201#156#3(7@93"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055270#4294967295#0#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#11#0#11#0#0"0(7@98"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314055270#4294967295#0#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#11#0#11#0#0"0(13@147"Expected '=', ',', ';', 'asm' or '__attribute__' before 'RenderWindow' in /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h314055270#4294967295#0#0(6@73"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h314051110#15#0#15#0#0"0(6@73"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h314051110#15#0#15#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSTimer'314055270#455#154#2(7@93"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055270#4294967295#0#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#11#0#11#0#0"0(13@145"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSTimer' in /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314055270#4294967295#0#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#13#0#13#0#0"0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#13#0#13#0#19"expected * before *0(4@66"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSWindow'314055270#609#155#2(7@93"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055270#4294967295#0#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#11#0#11#0#0"0(13@146"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSWindow' in /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314055270#4294967295#0#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#14#0#14#0#0"0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#14#0#14#0#19"expected * before *0(4@73"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSOpenGLContext'314055270#764#162#2(7@93"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055270#4294967295#0#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#11#0#11#0#0"0(13@153"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSOpenGLContext' in /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314055270#4294967295#0#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#15#0#15#0#0"0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#15#0#15#0#19"expected * before *0(4@64"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSView'314055270#926#153#2(7@93"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055270#4294967295#0#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#11#0#11#0#0"0(13@144"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSView' in /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314055270#4294967295#0#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#16#0#16#0#0"0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#16#0#16#0#19"expected * before *0(4@70"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSOpenGLView'314055270#1079#159#2(7@93"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055270#4294967295#0#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#11#0#11#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before 'NSOpenGLView' in /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314055270#4294967295#0#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#17#0#17#0#0"0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#17#0#17#0#19"expected * before *0(4@73"Expected '=', ',', ';', 'asm' or '__attribute__' before 'OSXRenderWindow'314055270#1238#162#2(7@93"In file included from /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055270#4294967295#0#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#11#0#11#0#0"0(13@153"Expected '=', ',', ';', 'asm' or '__attribute__' before 'OSXRenderWindow' in /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314055270#4294967295#0#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#19#0#19#0#0"0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314054847#19#0#19#0#19"expected * before *0(4@58"Expected specifier-qualifier-list before 'OSXRenderWindow'314055270#1400#142#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#16#0#16#0#19"expected * before *0(4@37"Expected ')' before 'OSXRenderWindow'314055270#1542#121#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#20#0#20#0#19"expected * before *0(4@37"Expected ')' before 'OSXRenderWindow'314055270#1663#121#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#37#0#37#0#19"expected * before *0(4@48"'window' undeclared (first use in this function)314055270#1905#132#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#41#0#41#0#43"'*' undeclared (first use in this function)0(4@48"'window' undeclared (first use in this function)314055270#2399#132#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#48#0#48#0#43"'*' undeclared (first use in this function)0(23@13"At top level:314055270#2531#87#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#0#0#0#0#0"0(22@28"Unused parameter 'dirtyRect'314055270#2618#114#0(6@71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m314055269#47#0#47#0#20"unused parameter '*'0(0#0#71"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m2566718096#1402"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.m -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o1#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s314199046.955067
+e314199049.374434
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm:35: warning: unused parameter 'dirtyRect'
+lSLF07#2@80"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm314199046#314199049#0(115"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm:35: warning: unused parameter 'dirtyRect'1(22@28"Unused parameter 'dirtyRect'314199049#0#115#0(6@72"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm314072120#35#0#35#0#20"unused parameter '*'0(0#0#72"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm2566718096#1213"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OpenGLView.mm -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/OpenGLView.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s314043905.711588
+e314043905.759964
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h:13: warning: 'class RenderWindow' has virtual functions but non-virtual destructor
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h: In member function 'virtual int RenderWindow::_start()':
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h:19: warning: no return statement in function returning non-void
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h:19: warning: control reaches end of non-void function
+lSLF07#2@83"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp314043905#314043905#0(555"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h:13: warning: 'class RenderWindow' has virtual functions but non-virtual destructor/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h: In member function 'virtual int RenderWindow::_start()':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h:19: warning: no return statement in function returning non-void/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h:19: warning: control reaches end of non-void function3(22@69"'class RenderWindow' has virtual functions but non-virtual destructor314043905#0#157#0(6@73"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h314043685#13#0#13#0#0"0(22@50"No return statement in function returning non-void314043905#289#138#0(6@73"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h314043685#19#0#19#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function314043905#427#128#0(6@73"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.h314043685#19#0#19#0#40"control reaches end of non-void function0(0#0#75"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp2566718096#1428"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s314199046.085791
+e314199046.954764
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp:23: warning: unused parameter '_name'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp: In member function 'std::string RenderWindow::readShaderFile(std::string)':
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp:136: warning: comparison between signed and unsigned integer expressions
+lSLF07#2@83"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp314199046#314199046#0(416"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp:23: warning: unused parameter '_name'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp: In member function 'std::string RenderWindow::readShaderFile(std::string)':/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp:136: warning: comparison between signed and unsigned integer expressions2(22@24"Unused parameter '_name'314199046#0#114#0(6@75"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp314074049#23#0#23#0#20"unused parameter '*'0(22@58"Comparison between signed and unsigned integer expressions314199046#267#149#0(6@75"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp314074049#136#0#136#0#58"comparison between signed and unsigned integer expressions0(0#0#75"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp2566718096#1208"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/RenderWindow.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/RenderWindow.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s314043904.831013
+e314043904.952553
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@77"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp314043904#314043904#0(0"0(0#0#69"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp2566718096#1416"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s314199044.395629
+e314199044.437743
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp314199044#314199044#0(0"0(0#0#69"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp2566718096#1196"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/canvas.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/canvas.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s314043905.085036
+e314043905.118685
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@84"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp314043905#314043905#0(0"0(0#0#76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp2566718096#1430"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s314199044.502635
+e314199045.449074
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp314199044#314199045#0(0"0(0#0#76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp2566718096#1210"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/cubeprimitive.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/cubeprimitive.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s314043905.118818
+e314043905.665122
+r0
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:16: error: invalid use of undefined type 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: ISO C++ forbids declaration of 'NSTimer' with no type
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: expected ';' before '*' token
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: ISO C++ forbids declaration of 'NSWindow' with no type
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: expected ';' before '*' token
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:6: warning: unused parameter 'argc'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:6: warning: unused parameter 'argv'
+lSLF07#2@75"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp314043905#314043905#0(1002"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:16: error: invalid use of undefined type 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:14: error: forward declaration of 'struct RenderWindow'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: ISO C++ forbids declaration of 'NSTimer' with no type/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:29: error: expected ';' before '*' token/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: ISO C++ forbids declaration of 'NSWindow' with no type/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h:30: error: expected ';' before '*' token/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:6: warning: unused parameter 'argc'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:6: warning: unused parameter 'argv'8(4@51"Invalid use of undefined type 'struct RenderWindow'314043905#0#140#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#16#0#16#0#0"0(4@44"Forward declaration of 'struct RenderWindow'314043905#140#133#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#14#0#14#0#0"0(4@53"ISO C++ forbids declaration of 'NSTimer' with no type314043905#273#142#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#29#0#29#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token314043905#415#118#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#29#0#29#0#19"expected * before *0(4@54"ISO C++ forbids declaration of 'NSWindow' with no type314043905#533#143#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#30#0#30#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token314043905#676#118#0(6@76"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/OSXRenderWindow.h314043766#30#0#30#0#19"expected * before *0(22@23"Unused parameter 'argc'314043905#794#104#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp314039169#6#0#6#0#20"unused parameter '*'0(22@23"Unused parameter 'argv'314043905#898#104#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp314039169#6#0#6#0#20"unused parameter '*'0(0#0#67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp2566718096#1412"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o1#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s314199045.438888
+e314199046.085654
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:7: warning: unused parameter 'argc'
+o/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:7: warning: unused parameter 'argv'
+lSLF07#2@75"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp314199045#314199046#0(208"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:7: warning: unused parameter 'argc'/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp:7: warning: unused parameter 'argv'2(22@23"Unused parameter 'argc'314199046#0#104#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp314076159#7#0#7#0#20"unused parameter '*'0(22@23"Unused parameter 'argv'314199046#104#104#0(6@67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp314076159#7#0#7#0#20"unused parameter '*'0(0#0#67"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp2566718096#1192"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -FREEIMAGE_LIB -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/main.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/main.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/moc_canvas.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s314043905.666222
+e314043905.711455
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/moc_canvas.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp314043905#314043905#0(0"0(0#0#73"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp2566718096#1424"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/moc_canvas.o0#
+
+CCompileC build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/moc_canvas.o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s314198046.286545
+e314198046.341731
+r1
+xCompileC
+xbuild/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/moc_canvas.o
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp314198046#314198046#0(0"0(0#0#73"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp2566718096#1424"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine.hmap -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.7/mkspecs/macx-xcode -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources/i386 -I/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/moc_canvas.cpp -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/moc_canvas.o0#
+
+CCpResource build/Debug/QtGLEngine.app/Contents/Resources/QtCore.framework /Library/Frameworks/QtCore.framework
+s313971226.806480
+e313971236.021733
+r1
+xCpResource
+xbuild/Debug/QtGLEngine.app/Contents/Resources/QtCore.framework
+x/Library/Frameworks/QtCore.framework
+lSLF07#2@41"Copy /Library/Frameworks/QtCore.framework313971226#313971236#0(0"0(0#0#36"/Library/Frameworks/QtCore.framework2566718096#356"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/Frameworks/QtCore.framework /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources0#
+
+CCpResource build/Debug/QtGLEngine.app/Contents/Resources/QtGui.framework /Library/Frameworks/QtGui.framework
+s313971226.805259
+e313971236.290846
+r0
+xCpResource
+xbuild/Debug/QtGLEngine.app/Contents/Resources/QtGui.framework
+x/Library/Frameworks/QtGui.framework
+lSLF07#2@40"Copy /Library/Frameworks/QtGui.framework313971226#313971236#0(0"0(0#0#35"/Library/Frameworks/QtGui.framework2566718096#355"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/Frameworks/QtGui.framework /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources2#
+
+CCpResource build/Debug/QtGLEngine.app/Contents/Resources/QtOpenGL.framework /Library/Frameworks/QtOpenGL.framework
+s313971226.807482
+e313971229.690296
+r1
+xCpResource
+xbuild/Debug/QtGLEngine.app/Contents/Resources/QtOpenGL.framework
+x/Library/Frameworks/QtOpenGL.framework
+lSLF07#2@43"Copy /Library/Frameworks/QtOpenGL.framework313971226#313971229#0(0"0(0#0#38"/Library/Frameworks/QtOpenGL.framework2566718096#358"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/Frameworks/QtOpenGL.framework /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources0#
+
+CCpResource build/Debug/QtGLEngine.app/Contents/Resources/fragment.fs fragment.fs
+s314199049.836416
+e314199049.844779
+r1
+xCpResource
+xbuild/Debug/QtGLEngine.app/Contents/Resources/fragment.fs
+xfragment.fs
+lSLF07#2@16"Copy fragment.fs314199049#314199049#0(0"0(0#0#70"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/fragment.fs2566718096#390"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/fragment.fs /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources0#
+
+CCpResource build/Debug/QtGLEngine.app/Contents/Resources/vertex.vs vertex.vs
+s314199049.837508
+e314199049.844436
+r1
+xCpResource
+xbuild/Debug/QtGLEngine.app/Contents/Resources/vertex.vs
+xvertex.vs
+lSLF07#2@14"Copy vertex.vs314199049#314199049#0(0"0(0#0#68"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/vertex.vs2566718096#388"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/vertex.vs /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Resources0#
+
+CLd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/MacOS/QtGLEngine normal i386
+s314199049.374633
+e314199049.835841
+r1
+xLd
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/MacOS/QtGLEngine
+xnormal
+xi386
+lSLF07#2@116"Link /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/MacOS/QtGLEngine314199049#314199049#0(0"0(0#0#0"2566718096#841"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -L/Library/Frameworks -L/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/../../../../../Desktop/Downloads/FreeImage -F/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug -filelist /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/QtGLEngine.LinkFileList -mmacosx-version-min=10.4 -headerpad_max_install_names -L/Library/Frameworks -F/Library/Frameworks -framework OpenGL -framework Cocoa -lfreeimage -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/MacOS/QtGLEngine0#
+
+CPBXCp QtGLEngine.app build/Debug/QtGLEngine.app
+s314199049.849366
+e314199049.865899
+r1
+xPBXCp
+xQtGLEngine.app
+xbuild/Debug/QtGLEngine.app
+lSLF07#2@31"Copy build/Debug/QtGLEngine.app314199049#314199049#0(0"0(0#0#85"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app2566718096#359"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine0#
+
+CPhaseScriptExecution "Qt Preprocessors" /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-A0A52A2ADF7A1E2A99738674.sh
+s314199043.953595
+e314199044.393497
+r0
+xPhaseScriptExecution
+xQt Preprocessors
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-A0A52A2ADF7A1E2A99738674.sh
+o/Developer/Tools/Qt/moc -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/local/Qt4.7/mkspecs/macx-xcode -I. -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -F/Library/Frameworks -D__APPLE__ -D__GNUC__ canvas.h -o moc_canvas.cpp
+ocanvas.h:0: Warning: No relevant classes found. No output generated.
+omake: *** No rule to make target `canvas.ui', needed by `ui_canvas.h'.  Stop.
+lSLF07#2@42"Run custom shell script 'Qt Preprocessors'314199043#314199044#0(588"/Developer/Tools/Qt/moc -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/local/Qt4.7/mkspecs/macx-xcode -I. -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -F/Library/Frameworks -D__APPLE__ -D__GNUC__ canvas.h -o moc_canvas.cppcanvas.h:0: Warning: No relevant classes found. No output generated.make: *** No rule to make target `canvas.ui', needed by `ui_canvas.h'.  Stop.3(13@441"/Developer/Tools/Qt/moc -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/local/Qt4.7/mkspecs/macx-xcode -I. -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -F/Library/Frameworks -D__APPLE__ -D__GNUC__ canvas.h -o moc_canvas.cpp314199043#0#441#0(1@0"0(4@56"Warning: No relevant classes found. No output generated.314199044#441#69#0(6@8"canvas.h314199044#0#0#0#0#0"0(13@78"make: *** No rule to make target `canvas.ui', needed by `ui_canvas.h'.  Stop.314199044#510#78#0(1@0"0(0#0#0"2566718096#17398"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv ACTION build    setenv ALTERNATE_GROUP robrau1    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER robrau1    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv BUILD_ROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv CACHE_ROOT /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502    setenv CCHROOT /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv CONFIGURATION_TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug    setenv CONTENTS_FOLDER_PATH QtGLEngine.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH QtGLEngine.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/QtGLEngine.dst    setenv DWARF_DSYM_FILE_NAME QtGLEngine.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv DYLIB_COMPATIBILITY_VERSION 1.0    setenv DYLIB_CURRENT_VERSION 1.0.0    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH QtGLEngine.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH QtGLEngine.app/Contents/MacOS    setenv EXECUTABLE_NAME QtGLEngine    setenv EXECUTABLE_PATH QtGLEngine.app/Contents/MacOS/QtGLEngine    setenv FILE_LIST /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH QtGLEngine.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME QtGLEngine.app    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 502    setenv GROUP robrau1    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include\" /usr/include . . . /usr/local/include /System/Library/Frameworks/CarbonCore.framework/Headers"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH QtGLEngine.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH QtGLEngine.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/QtGLEngine.dst/Users/robrau1/Applications    setenv INSTALL_GROUP robrau1    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER robrau1    setenv INSTALL_PATH /Users/robrau1/Applications    setenv INSTALL_ROOT /tmp/QtGLEngine.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH QtGLEngine.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug\" /Library/Frameworks \"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/../../../../../Desktop/Downloads/FreeImage\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/../../../../../Desktop/Downloads/FreeImage\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/QtGLEngine.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH QtGLEngine.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.4    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL i386    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal    setenv OBJROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "-pipe -g -Wall -W -FREEIMAGE_LIB"    setenv OTHER_CPLUSPLUSFLAGS "-pipe -g -Wall -W -FREEIMAGE_LIB"    setenv OTHER_LDFLAGS "-headerpad_max_install_names -L/Library/Frameworks -F/Library/Frameworks"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH QtGLEngine.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/PkgInfo    setenv PKGINFO_PATH QtGLEngine.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH QtGLEngine.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH QtGLEngine.app/Contents/PrivateHeaders    setenv PRODUCT_NAME QtGLEngine    setenv PRODUCT_SETTINGS_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT QtGLEngine    setenv PROJECT_DERIVED_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/DerivedSources    setenv PROJECT_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv PROJECT_FILE_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/QtGLEngine.xcodeproj    setenv PROJECT_NAME QtGLEngine    setenv PROJECT_TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build    setenv PUBLIC_HEADERS_FOLDER_PATH QtGLEngine.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH QtGLEngine.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH QtGLEngine.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH QtGLEngine.app/Contents/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv SRCROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/SymbolRepositories    setenv SYMROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME QtGLEngine    setenv TARGET_BUILD_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv TARGET_NAME QtGLEngine    setenv TARGET_TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_FILES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_ROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH QtGLEngine.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER robrau1    setenv USER_APPS_DIR /Users/robrau1/Applications    setenv USER_LIBRARY_DIR /Users/robrau1/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH QtGLEngine.app/Contents/version.plist    setenv VERSION_INFO_BUILDER robrau1    setenv VERSION_INFO_FILE QtGLEngine_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:QtGLEngine  PROJECT:QtGLEngine-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME QtGLEngine.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv YACCFLAGS -d    /bin/sh -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-A0A52A2ADF7A1E2A99738674.sh2#
+
+CPhaseScriptExecution "Qt Qmake" /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-D7BA7D76DAB5DD13389D6332.sh
+s314199043.895679
+e314199043.952690
+r0
+xPhaseScriptExecution
+xQt Qmake
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-D7BA7D76DAB5DD13389D6332.sh
+omake: *** No rule to make target `QtGLEngine.pro', needed by `QtGLEngine.xcodeproj/project.pbxproj'.  Stop.
+lSLF07#2@34"Run custom shell script 'Qt Qmake'314199043#314199043#0(148"make: *** No rule to make target `QtGLEngine.pro', needed by `QtGLEngine.xcodeproj/project.pbxproj'.  Stop.Command /bin/sh failed with exit code 22(13@108"make: *** No rule to make target `QtGLEngine.pro', needed by `QtGLEngine.xcodeproj/project.pbxproj'.  Stop.314199043#0#108#0(1@0"0(4@39"Command /bin/sh failed with exit code 2314199043#4294967295#0#0(1@0"0(0#0#0"2566718096#17398"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv ACTION build    setenv ALTERNATE_GROUP robrau1    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER robrau1    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv BUILD_ROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv CACHE_ROOT /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502    setenv CCHROOT /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv CONFIGURATION_TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug    setenv CONTENTS_FOLDER_PATH QtGLEngine.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH QtGLEngine.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/QtGLEngine.dst    setenv DWARF_DSYM_FILE_NAME QtGLEngine.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv DYLIB_COMPATIBILITY_VERSION 1.0    setenv DYLIB_CURRENT_VERSION 1.0.0    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH QtGLEngine.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH QtGLEngine.app/Contents/MacOS    setenv EXECUTABLE_NAME QtGLEngine    setenv EXECUTABLE_PATH QtGLEngine.app/Contents/MacOS/QtGLEngine    setenv FILE_LIST /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH QtGLEngine.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME QtGLEngine.app    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 502    setenv GROUP robrau1    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/include\" /usr/include . . . /usr/local/include /System/Library/Frameworks/CarbonCore.framework/Headers"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH QtGLEngine.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH QtGLEngine.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/QtGLEngine.dst/Users/robrau1/Applications    setenv INSTALL_GROUP robrau1    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER robrau1    setenv INSTALL_PATH /Users/robrau1/Applications    setenv INSTALL_ROOT /tmp/QtGLEngine.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH QtGLEngine.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/QtGLEngine-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug\" /Library/Frameworks \"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/../../../../../Desktop/Downloads/FreeImage\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/../../../../../Desktop/Downloads/FreeImage\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal/i386/QtGLEngine.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH QtGLEngine.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.4    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL i386    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Objects-normal    setenv OBJROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "-pipe -g -Wall -W -FREEIMAGE_LIB"    setenv OTHER_CPLUSPLUSFLAGS "-pipe -g -Wall -W -FREEIMAGE_LIB"    setenv OTHER_LDFLAGS "-headerpad_max_install_names -L/Library/Frameworks -F/Library/Frameworks"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH QtGLEngine.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/PkgInfo    setenv PKGINFO_PATH QtGLEngine.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH QtGLEngine.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH QtGLEngine.app/Contents/PrivateHeaders    setenv PRODUCT_NAME QtGLEngine    setenv PRODUCT_SETTINGS_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT QtGLEngine    setenv PROJECT_DERIVED_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/DerivedSources    setenv PROJECT_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv PROJECT_FILE_PATH /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/QtGLEngine.xcodeproj    setenv PROJECT_NAME QtGLEngine    setenv PROJECT_TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build    setenv PUBLIC_HEADERS_FOLDER_PATH QtGLEngine.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH QtGLEngine.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH QtGLEngine.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/c+/c+Vkiy1UHmy5FaJEy1u6CU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH QtGLEngine.app/Contents/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv SRCROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/SymbolRepositories    setenv SYMROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME QtGLEngine    setenv TARGET_BUILD_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug    setenv TARGET_NAME QtGLEngine    setenv TARGET_TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_FILES_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_FILE_DIR /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build    setenv TEMP_ROOT /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH QtGLEngine.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER robrau1    setenv USER_APPS_DIR /Users/robrau1/Applications    setenv USER_LIBRARY_DIR /Users/robrau1/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH QtGLEngine.app/Contents/version.plist    setenv VERSION_INFO_BUILDER robrau1    setenv VERSION_INFO_FILE QtGLEngine_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:QtGLEngine  PROJECT:QtGLEngine-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME QtGLEngine.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv YACCFLAGS -d    /bin/sh -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/QtGLEngine.build/Debug/QtGLEngine.build/Script-D7BA7D76DAB5DD13389D6332.sh2#
+
+CProcessInfoPlistFile /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Info.plist Info.plist
+s314199043.867343
+e314199043.895517
+r1
+xProcessInfoPlistFile
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist314199043#314199043#0(0"0(0#0#69"/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/Info.plist2566718096#368"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    builtin-infoPlistUtility Info.plist -genpkginfo /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app/Contents/Info.plist0#
+
+CTouch /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app
+s314199049.844873
+e314199049.849249
+r1
+xTouch
+x/Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app
+lSLF07#2@91"Touch /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app314199049#314199049#0(0"0(0#0#0"2566718096#174"    cd /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine    /usr/bin/touch -c /Users/robrau1/Documents/RTSEngine/trunk/Engine/QtGLEngine/build/Debug/QtGLEngine.app0#
+
