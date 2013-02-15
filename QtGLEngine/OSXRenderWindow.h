@@ -14,13 +14,13 @@
 //#include <string>
 //#include <NSTimer>
 //#import <Cocoa/NSTimer.h>
-//class NSTimer;
-//class NSWindow;
-//class NSOpenGLContext;
-//class NSView;
-//class NSOpenGLView;
-//class OpenGLView;
-//class NSAutoreleasePool;
+class NSTimer;
+class NSWindow;
+class NSOpenGLContext;
+class NSView;
+class NSOpenGLView;
+class OpenGLView;
+class NSAutoreleasePool;
 
 using namespace std;
 
