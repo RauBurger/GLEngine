@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:QtGLEngine.xcodeproj">
+      location = "self:GLEngine.xcodeproj">
    </FileRef>
 </Workspace>

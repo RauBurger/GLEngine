@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+   LastUpgradeVersion = "0460"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,28 +14,29 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B28A8FC512C286790013935B"
-               BuildableName = "libGLEngine.dylib"
+               BlueprintIdentifier = "B27F490016D1C19F005F474E"
+               BuildableName = "GLEngine.dylib"
                BlueprintName = "GLEngine"
-               ReferencedContainer = "container:QtGLEngine.xcodeproj">
+               ReferencedContainer = "container:GLEngine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <AdditionalOptions>
@@ -42,19 +44,10 @@
    </LaunchAction>
    <ProfileAction
       shouldUseLaunchSchemeArgsEnv = "YES"
-      savedToolIdentifier = "/Developer/Applications/Instruments.app/Contents/Resources/templates/Time Profiler.tracetemplate"
+      savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BB0555278B18936C1AA25A4"
-            BuildableName = "QtGLEngine.app"
-            BlueprintName = "QtGLEngine"
-            ReferencedContainer = "container:QtGLEngine.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

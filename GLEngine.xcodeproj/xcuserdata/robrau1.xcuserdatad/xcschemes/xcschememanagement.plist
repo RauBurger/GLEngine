@@ -9,7 +9,7 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>QtGLEngine.xcscheme</key>
+		<key>TestApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1BB0555278B18936C1AA25A4</key>
+		<key>B27F490016D1C19F005F474E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B28A8FC512C286790013935B</key>
+		<key>B27F495616D1C22A005F474E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
