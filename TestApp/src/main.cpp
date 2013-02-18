@@ -7,8 +7,8 @@
 #ifdef __APPLE__
 #include "mach-o/dyld.h"
 #endif
-#include <SceneTree.h>
-#include <Node.h>
+#include "SceneTree.h"
+#include "Node.h"
 #include "app.h"
 
 int main(int argc, char *argv[])

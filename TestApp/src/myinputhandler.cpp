@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#include <iostream>
+//#include <iostream>
 #include "myinputhandler.h"
 #include "Node.h"
 #include "Matrix3.h"

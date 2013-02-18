@@ -30,10 +30,10 @@ OSXRenderWindow::OSXRenderWindow()
 	
 	setupRenderWindow();
 	
-	mTimer = [NSTimer timerWithTimeInterval:(0.0f) target:mView 
+	mTimer = [NSTimer timerWithTimeInterval:(0.0f) target:(OpenGLView*)mView 
 								  selector:@selector(drawRect:) userInfo:nil repeats:YES];
-	[[NSRunLoop currentRunLoop]addTimer:mTimer forMode:NSDefaultRunLoopMode];
-	[[NSRunLoop currentRunLoop]addTimer:mTimer forMode:NSEventTrackingRunLoopMode];
+	[[NSRunLoop currentRunLoop]addTimer:(NSTimer*)mTimer forMode:NSDefaultRunLoopMode];
+	[[NSRunLoop currentRunLoop]addTimer:(NSTimer*)mTimer forMode:NSEventTrackingRunLoopMode];
 
 
 	mObjects = 0;
@@ -54,10 +54,10 @@ OSXRenderWindow::OSXRenderWindow(string _name, int _w, int _h, bool _fullScreen)
 	
 	setupRenderWindow();
 	
-	mTimer = [NSTimer timerWithTimeInterval:(0.01f) target:mView 
+	mTimer = [NSTimer timerWithTimeInterval:(0.01f) target:(OpenGLView*)mView 
 								  selector:@selector(drawRect:) userInfo:nil repeats:YES];
-	[[NSRunLoop currentRunLoop]addTimer:mTimer forMode:NSDefaultRunLoopMode];
-	[[NSRunLoop currentRunLoop]addTimer:mTimer forMode:NSEventTrackingRunLoopMode];
+	[[NSRunLoop currentRunLoop]addTimer:(NSTimer*)mTimer forMode:NSDefaultRunLoopMode];
+	[[NSRunLoop currentRunLoop]addTimer:(NSTimer*)mTimer forMode:NSEventTrackingRunLoopMode];
 	
 		
 	mObjects = 0;
@@ -66,7 +66,7 @@ OSXRenderWindow::OSXRenderWindow(string _name, int _w, int _h, bool _fullScreen)
 
 OSXRenderWindow::~OSXRenderWindow()
 {
-	[mPool release];
+	[(NSAutoreleasePool*)mPool release];
 }
 
 void OSXRenderWindow::_start()
@@ -77,7 +77,7 @@ void OSXRenderWindow::_start()
 void OSXRenderWindow::update()
 {
 	render();
-	[mGLContext flushBuffer];
+	[(NSOpenGLContext*)mGLContext flushBuffer];
 }
 
 void OSXRenderWindow::setupRenderWindow()
@@ -129,7 +129,7 @@ void OSXRenderWindow::setupRenderWindow()
 												  backing:NSBackingStoreBuffered 
 												    defer:NO];
 	
-	[mRenderWindow setAcceptsMouseMovedEvents:YES];
+	[(NSWindow*)mRenderWindow setAcceptsMouseMovedEvents:YES];
 	
 	static NSOpenGLPixelFormatAttribute	attributes[] =	// OpenGL context attributes
 	{
@@ -141,16 +141,16 @@ void OSXRenderWindow::setupRenderWindow()
 	
 	mView = [[OpenGLView alloc] initWithOSXWindow:this];
 	
-	[[mRenderWindow contentView] addSubview:mView];
-	[mRenderWindow setContentView:mView];
-	[mRenderWindow makeFirstResponder:mView];
+	[[(NSWindow*)mRenderWindow contentView] addSubview:(OpenGLView*)mView];
+	[(NSWindow*)mRenderWindow setContentView:(OpenGLView*)mView];
+	[(NSWindow*)mRenderWindow makeFirstResponder:(OpenGLView*)mView];
 	
-	[mGLContext setView:mView];
-	[mGLContext makeCurrentContext];
+	[(NSOpenGLContext*)mGLContext setView:(OpenGLView*)mView];
+	[(NSOpenGLContext*)mGLContext makeCurrentContext];
 	
 	//[mRenderWindow setTitle:[[NSString alloc] stringWithUTF8String: mName.c_str()]];
 	
-	[mRenderWindow makeKeyAndOrderFront:nil];
+	[(NSWindow*)mRenderWindow makeKeyAndOrderFront:nil];
 	
 	setupOpenGL();
 	
@@ -159,5 +159,5 @@ void OSXRenderWindow::setupRenderWindow()
 
 void OSXRenderWindow::setInputHandler(InputHandler *inputHandler)
 {
-	[mView setInputHandler:inputHandler];
+	[(OpenGLView*)mView setInputHandler:inputHandler];
 }

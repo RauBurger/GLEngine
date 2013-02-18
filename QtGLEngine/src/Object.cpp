@@ -6,7 +6,7 @@
 //  Copyright (c) 2011 Robert F. Rau II. All rights reserved.
 //
 #define TIXML_USE_STL
-#include "tinyxml/tinyxml.h"
+#include "../tinyxml/tinyxml.h"
 #include "Object.h"
 #include "Node.h"
 #include <iostream>
@@ -488,8 +488,8 @@ void Object::setupShaders()
 	GLuint v = glCreateShader(GL_VERTEX_SHADER);
 	GLuint f = glCreateShader(GL_FRAGMENT_SHADER);
 	
-	vertSrc = readShaderFile("QtGLEngine.app/Contents/Resources/vertexMP.vs");
-	fragSrc = readShaderFile("QtGLEngine.app/Contents/Resources/fragmentMP.fs");
+	vertSrc = readShaderFile("TestApp.app/Contents/Resources/vertexMP.vs");
+	fragSrc = readShaderFile("TestApp.app/Contents/Resources/fragmentMP.fs");
 	
 	const char * vv = vertSrc.c_str();
 	const char * ff = fragSrc.c_str();

@@ -14,14 +14,17 @@
 //#include <string>
 //#include <NSTimer>
 //#import <Cocoa/NSTimer.h>
-class NSTimer;
-class NSWindow;
-class NSOpenGLContext;
-class NSView;
-class NSOpenGLView;
-class OpenGLView;
-class NSAutoreleasePool;
+//#include <Foundation/NSTimer.h>
 
+//#ifdef __cplusplus
+//class NSTimer;
+//class NSWindow;
+//class NSOpenGLContext;
+//class NSView;
+//class NSOpenGLView;
+//class OpenGLView;
+//class NSAutoreleasePool;
+//#endif
 using namespace std;
 
 class OSXRenderWindow : public RenderWindow
@@ -41,12 +44,15 @@ private:
 	void setupRenderWindow();
 	
     bool				mInitialized;
-    NSTimer*			mTimer;
-	NSWindow*			mRenderWindow;
-	NSOpenGLContext*	mGLContext;
-	OpenGLView*			mView;
+    void*				mTimer;
+	void*				mRenderWindow;
+	//NSOpenGLContext*	mGLContext;
+	void*				mGLContext;
+	//OpenGLView*			mView;
+	void*				mView;
 	
-	NSAutoreleasePool * mPool;
+	//NSAutoreleasePool * mPool;
+	void*				mPool;
 };
 
 
