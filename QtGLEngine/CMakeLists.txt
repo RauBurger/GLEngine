@@ -3,6 +3,13 @@ message(STATUS ${GLENGINE_SOURCE_DIR})
 include_directories(include)
 include_directories(${OPENGL_INCLUDE_DIR})
 
+if (UNIX)
+    set (PLATFORM_HEADERS
+	 include/GLX/GLXRenderWindow.h
+	)
+    include_directories(include/GLX)
+endif ()
+
 set 	(HEADER_FILES
 	 include/Camera.h
     	 include/Core.h
@@ -32,7 +39,7 @@ set	(SOURCE_FILES
 	 src/Vector3.cpp
 	 )
 
-add_library(GLEngine ${HEADER_FILES} ${SOURCE_FILES})
+add_library(GLEngine ${HEADER_FILES} ${SOURCE_FILES} ${PLATFORM_HEADERS})
 
 message(STATUS ${GL_LIB})
 

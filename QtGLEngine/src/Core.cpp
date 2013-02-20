@@ -23,7 +23,9 @@ RenderWindow* Core::createRenderWindow(string name, int width, int height, bool 
 {
 #ifdef __APPLE__
 	mRenderWindow = new OSXRenderWindow(name, width, height, fullScreen);
-#else
+#elif __linux
+	mRenderWindow = new GLXRenderWindow(name, width, height, fullScreen);
+#elif __WIN32__
 	mRenderWindow = new Win32RenderWindow(name, width, height, fullScreen);
 #endif
 	return mRenderWindow;

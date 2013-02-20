@@ -12,6 +12,8 @@
 //#include <QWidget>
 #ifdef __APPLE__
 # include "OSXRenderWindow.h"
+#elif __linux
+# include "GLXRenderWindow.h"
 #elif __WIN32__
 # include "Win32RenderWindow.h"
 #endif
