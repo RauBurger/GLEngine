@@ -1,1 +1,39 @@
-include_directories(${GLENGINE_SOURCE_DIR}/QtGlEngine)
+message(STATUS ${GLENGINE_SOURCE_DIR})
+
+include_directories(include)
+include_directories(${OPENGL_INCLUDE_DIR})
+
+set 	(HEADER_FILES
+	 include/Camera.h
+    	 include/Core.h
+	 include/EventListener.h
+	 include/Frustrum.h
+	 include/InputHandler.h
+	 include/Matrix3.h
+	 include/Matrix4.h
+	 include/Node.h
+	 include/Object.h
+	 include/RenderWindow.h
+	 include/SceneTree.h
+	 include/Vector3.h
+	 )
+
+set	(SOURCE_FILES
+	 src/Camera.cpp
+	 src/Core.cpp
+	 src/Frustrum.cpp
+	 src/InputHandler.cpp
+	 src/Matrix3.cpp
+	 src/Matrix4.cpp
+	 src/Node.cpp
+	 src/Object.cpp
+	 src/RenderWindow.cpp
+	 src/SceneTree.cpp
+	 src/Vector3.cpp
+	 )
+
+add_library(GLEngine ${HEADER_FILES} ${SOURCE_FILES})
+
+message(STATUS ${GL_LIB})
+
+target_link_libraries(GLEngine ${OPENGL_LIBRARIES})

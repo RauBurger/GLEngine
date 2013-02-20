@@ -17,14 +17,18 @@
 #endif
 
 #ifdef __APPLE__
-#include "OpenGL/gl3.h"
-#include <OpenGL/gl3ext.h>
+# include "OpenGL/gl3.h"
+# include <OpenGL/gl3ext.h>
 //#include "OpenGL/glu.h"
-#else
-#include <windows.h>
-#include "gl/glew.h"
-#include "gl/gl.h"
-#include "gl/glu.h"
+#elif __linux__
+# include <GL/gl.h>
+# include <GL/glx.h>
+# include <GL/glext.h>
+#elif __WIN32__
+# include <windows.h>
+# include "gl/glew.h"
+# include "gl/gl.h"
+# include "gl/glu.h"
 #endif
 
 #include "Matrix4.h"

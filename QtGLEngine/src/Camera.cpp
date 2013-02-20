@@ -16,8 +16,10 @@
 #include <OpenGL/gl3.h>
 #include <OpenGL/gl3ext.h>
 #else
-#include <windows.h>
-#include "gl/gl.h"
+# ifdef __WIN32__
+#  include <windows.h>
+#  include "gl/gl.h"
+# endif
 #endif
 
 #include <math.h>

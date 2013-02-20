@@ -11,10 +11,11 @@
 
 //#include <QWidget>
 #ifdef __APPLE__
-#include "OSXRenderWindow.h"
-#else
-#include "Win32RenderWindow.h"
+# include "OSXRenderWindow.h"
+#elif __WIN32__
+# include "Win32RenderWindow.h"
 #endif
+
 #include <string>
 //#include "canvas.h"
 
