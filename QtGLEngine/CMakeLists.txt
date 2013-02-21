@@ -1,4 +1,4 @@
-message(STATUS ${GLENGINE_SOURCE_DIR})
+#message(STATUS ${GLENGINE_SOURCE_DIR})
 
 include_directories(include)
 include_directories(${OPENGL_INCLUDE_DIR})
@@ -6,6 +6,9 @@ include_directories(${OPENGL_INCLUDE_DIR})
 if (UNIX)
     set (PLATFORM_HEADERS
 	 include/GLX/GLXRenderWindow.h
+	)
+    set (PLATFORM_SOURCE
+	 src/GLX/GLXRenderWindow.cpp
 	)
     include_directories(include/GLX)
 endif ()
@@ -39,8 +42,6 @@ set	(SOURCE_FILES
 	 src/Vector3.cpp
 	 )
 
-add_library(GLEngine ${HEADER_FILES} ${SOURCE_FILES} ${PLATFORM_HEADERS})
-
-message(STATUS ${GL_LIB})
+add_library(GLEngine ${HEADER_FILES} ${SOURCE_FILES} ${PLATFORM_HEADERS} ${PLATFORM_SOURCE})
 
 target_link_libraries(GLEngine ${OPENGL_LIBRARIES})

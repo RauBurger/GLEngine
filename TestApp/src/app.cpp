@@ -14,7 +14,7 @@
 #include "Core.h"
 #include "SceneTree.h"
 #include "Node.h"
-#include "MyInputHandler.h"
+#include "myinputhandler.h"
 
 App::App(int argc, char** argv)
 {

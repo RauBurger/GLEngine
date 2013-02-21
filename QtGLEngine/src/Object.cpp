@@ -169,7 +169,7 @@ void Object::loadModelPly()
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, 0);
 	getGlError("Object::loadModel() line:159, glVertexAttribPointer norms");
 }
-
+/*
 void Object::loadModelx3d()
 {
 	TiXmlDocument* doc;
@@ -197,7 +197,7 @@ void Object::loadModelx3d()
 	//std::cout.flush();
 	printf("Hello? again?");
 }
-
+*/
 void Object::loadModel()
 {
 	std::ifstream model;

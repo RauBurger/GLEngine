@@ -12,13 +12,18 @@
 #ifndef GL3_PROTOTYPES
 	#define GL3_PROTOTYPES 1
 #endif
+
+#ifndef GL_GLEXT_PROTOTYPES
+# define GL_GLEXT_PROTOTYPES 1
+#endif
+
 #ifndef kCGLOGLPVersion_3_2_Core
 	#define kCGLOGLPVersion_3_2_Core 1
 #endif
 
 #ifdef __APPLE__
-#include "OpenGL/gl3.h"
-#include <OpenGL/gl3ext.h>
+# include "OpenGL/gl3.h"
+# include <OpenGL/gl3ext.h>
 //#include "OpenGL/glu.h"
 #elif __linux
 # include "GL/gl.h"

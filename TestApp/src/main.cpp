@@ -3,7 +3,7 @@
 //#include "canvas.h"
 #include <iostream>
 #include "Core.h"
-#include "cubeprimitive.h"
+//#include "cubeprimitive.h"
 #ifdef __APPLE__
 #include "mach-o/dyld.h"
 #endif
