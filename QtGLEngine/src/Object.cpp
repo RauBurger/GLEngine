@@ -45,7 +45,16 @@ void Object::loadModelPly()
 	int verts = 0;
 	int faces = 0;
 	//model.open("/motorcycleFairing2_5x.ply");
+#ifdef __linux
+	model.open("/home/rrau/GLEngine/TestApp/data/models/house.ply");
+#else
 	model.open("/house.ply");
+#endif
+	if(model.fail())
+	{
+		std::cout << "Bad file" << std::endl;
+		exit(0);
+	}
 	int cntv = 0;
 	int cntn = 0;
 	int cntf = 0;
@@ -487,10 +496,15 @@ void Object::setupShaders()
 	
 	GLuint v = glCreateShader(GL_VERTEX_SHADER);
 	GLuint f = glCreateShader(GL_FRAGMENT_SHADER);
-	
+
+#ifdef __linux
+	vertSrc = readShaderFile("/home/rrau/GLEngine/TestApp/data/shaders/vertexMP.vs");
+	fragSrc = readShaderFile("/home/rrau/GLEngine/TestApp/data/shaders/fragmentMP.fs");
+#else
 	vertSrc = readShaderFile("TestApp.app/Contents/Resources/vertexMP.vs");
 	fragSrc = readShaderFile("TestApp.app/Contents/Resources/fragmentMP.fs");
-	
+#endif
+
 	const char * vv = vertSrc.c_str();
 	const char * ff = fragSrc.c_str();
 	

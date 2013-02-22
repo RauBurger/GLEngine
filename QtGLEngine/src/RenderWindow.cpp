@@ -127,6 +127,7 @@ void RenderWindow::setupOpenGL()
 	glEnable(GL_DEPTH_TEST);
 	getGlError("RenderWindow::setupOpenGL() line:96, glEnable(GL_DEPTH_TEST);");
 	glEnable(GL_CULL_FACE);
+	//glFrontFace(GL_CW);
 	getGlError("RenderWindow::setupOpenGL() line:98, glEnable(GL_CULL_FACE);");
 	glEnable(GL_MULTISAMPLE);
 	glEnable(GL_LINE_SMOOTH);

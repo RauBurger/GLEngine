@@ -50,10 +50,12 @@ void App::init()
 	mCamRotNode = mSceneTree->getRootNode()->createNode("CamRotNode");
 	mCamPitchNode = mCamRotNode->createNode("CamPitchNode");
 
+	cout << "Mid init" << endl;
 
 	Object* obj = new Object();
 	//obj->setupShaders();
 	obj->loadModelPly();
+	cout << "Passed loadModelPly" << endl;
 	obj->setupShaders();
 
 	mSceneTree->getRootNode()->attachObject(obj);
@@ -71,6 +73,7 @@ void App::init()
 	mInputHandler->setCamNodes(mCamPitchNode, mCamRotNode);
 	mCore->setInputHandler((InputHandler*)mInputHandler);
 	mCore->setEventListener((EventListener*)mInputHandler);
+	cout << "End init" << endl;
 }
 
 int App::Run()

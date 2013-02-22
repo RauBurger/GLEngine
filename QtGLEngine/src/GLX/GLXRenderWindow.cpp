@@ -75,25 +75,21 @@ void GLXRenderWindow::_start()
 	cout << "Start rendering" << endl;
 	while(1)
 	{
-		XNextEvent(mDisplay, &mXEvent);
+		if(XPending(mDisplay))
+			XNextEvent(mDisplay, &mXEvent);
 		
-		cout << "Render loop " << mXEvent.type << endl;
-		if(mXEvent.type == Expose)
-		{
-			cout << "Rendering" << endl;
-			XGetWindowAttributes(mDisplay, mWindow, &mWindowAttrib);
-			render();
-			glXSwapBuffers(mDisplay, mWindow);
-//			cout << "Rendering" << endl;
-		}
-		else if(mXEvent.type == KeyPress)
+		XGetWindowAttributes(mDisplay, mWindow, &mWindowAttrib);
+		render();
+		glXSwapBuffers(mDisplay, mWindow);
+
+		if(mXEvent.type == KeyPress)
 		{
 			cout << "Exiting " << mXEvent.type << endl;
 			glXMakeCurrent(mDisplay, None, NULL);
 			glXDestroyContext(mDisplay, mGLXContext);
 			XDestroyWindow(mDisplay, mWindow);
 			XCloseDisplay(mDisplay);
-			exit(0);
+	   		exit(0);
 		}
 	}
 }

@@ -11,6 +11,7 @@ if (UNIX)
 	 src/GLX/GLXRenderWindow.cpp
 	)
     include_directories(include/GLX)
+    include_directories(${X11_INCLUDE_DIR})
 endif ()
 
 set 	(HEADER_FILES
@@ -44,4 +45,8 @@ set	(SOURCE_FILES
 
 add_library(GLEngine ${HEADER_FILES} ${SOURCE_FILES} ${PLATFORM_HEADERS} ${PLATFORM_SOURCE})
 
-target_link_libraries(GLEngine ${OPENGL_LIBRARIES})
+if (UNIX)
+    target_link_libraries(GLEngine ${OPENGL_LIBRARIES} ${X11_LIBRARIES})
+else ()
+    target_link_libraries(GLEngine ${OPENGL_LIBRARIES})
+endif ()
