@@ -115,10 +115,10 @@ void Object::loadModelPly()
 		}
 	}
 	
-	/*for(int i = 0; i < verts*3; i += 3)
+	for(int i = 0; i < verts*3; i += 3)
 	{
 		std::cout << "(" << mVerticies[i] << ", " << mVerticies[i+1] << ", " << mVerticies[i+2] << ")" << std::endl;
-	}*/
+	}
 	/*for(int i = 0; i < faces*3; i += 3)
 	{
 		std::cout << "<" << mIndicies[i] << ", " << mIndicies[i+1] << ", " << mIndicies[i+2] << ">" << std::endl;
@@ -146,13 +146,13 @@ void Object::loadModelPly()
 	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * verts * 3, mVerticies, GL_STATIC_DRAW);
 	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
-	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * verts * 3, mVerticies);
+	//glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * verts * 3, mVerticies);
 	
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
 	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * verts * 3, mNormals, GL_STATIC_DRAW);
 	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
-	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 3 * verts, mNormals);
+	//glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 3 * verts, mNormals);
 	
 	
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
@@ -422,7 +422,7 @@ void Object::draw(Matrix4* viewMat, Matrix4* projMat)
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
 	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
-	glDrawElements(GL_TRIANGLES, mNumFaces*3, GL_UNSIGNED_INT, 0);
+	glDrawElements( GL_TRIANGLES, mNumFaces*3, GL_UNSIGNED_INT, 0);
 	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	//glUseProgram(NULL);
 
