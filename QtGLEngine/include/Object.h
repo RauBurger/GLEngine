@@ -63,7 +63,6 @@ protected:
 	std::string readShaderFile(std::string fileName);
 	
 	void setParentNode(Node* node);
-	void getGlError(std::string errTxt, int lineNum = __LINE__);
 	//void setWorldViewMatrixPtr(Matrix4* viewMat);
 	Matrix4* mWorldViewMatrixPtr;
 	Matrix4 mModelMat;

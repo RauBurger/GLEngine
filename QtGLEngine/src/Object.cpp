@@ -9,6 +9,7 @@
 #include "../tinyxml/tinyxml.h"
 #include "Object.h"
 #include "Node.h"
+#include "Core.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -96,9 +97,9 @@ void Object::loadModelPly()
 			mVerticies[cntv] *= .04;
 			mVerticies[cntv+1] *= .04;
 			mVerticies[cntv+2] *= .04;
-			/*mVerticies[cntv] *= 10;
-			mVerticies[cntv+1] *= 10;
-			mVerticies[cntv+2] *= 10;*/
+			//mVerticies[cntv] *= 10;
+			//mVerticies[cntv+1] *= 10;
+			//mVerticies[cntv+2] *= 10;
 			cntv += 3;
 			cntn += 3;
 		}
@@ -138,26 +139,26 @@ void Object::loadModelPly()
 	glBindVertexArray(mVertArrayObj);
 	// generate a new VBO and get the associated ID
 	glGenBuffers(3, ids);
-	getGlError("Object::loadModel() line:108, glGenBuffers");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	// bind VBO in order to use
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	getGlError("Object::loadModel() line:111, glBindBuffers id 0");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * verts * 3, mVerticies, GL_STATIC_DRAW);
-	getGlError("Object::loadModel() line:119, glBufferData verts");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * verts * 3, mVerticies);
 	
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	getGlError("Object::loadModel() line:113, glBindBuffers id 1");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * verts * 3, mNormals, GL_STATIC_DRAW);
-	getGlError("Object::loadModel() line:121, glBufferData norms");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 3 * verts, mNormals);
 	
 	
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
-	getGlError("Object::loadModel() line:115, glBindBuffers id 2");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(GLuint) * faces * 3, mIndicies, GL_STATIC_DRAW);
-	getGlError("Object::loadModel() line:123, glBufferData faces");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	int maxAttrib;
 	glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &maxAttrib);
@@ -165,18 +166,18 @@ void Object::loadModelPly()
 	
 	
 	glEnableVertexAttribArray(0);
-	getGlError("Object::loadModel() line:157, glEnableVertexAttribArray verts");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	getGlError("Object::loadModel() line:151, glBindBuffer verts");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	getGlError("Object::loadModel() line:153, glVertexAttribPointer verts");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glEnableVertexAttribArray(1);
-	getGlError("Object::loadModel() line:151, glEnableVertexAttribArray norms");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	getGlError("Object::loadModel() line:157, glBindBuffer norms");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	getGlError("Object::loadModel() line:159, glVertexAttribPointer norms");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 }
 /*
 void Object::loadModelx3d()
@@ -307,40 +308,39 @@ void Object::loadModel()
 	
 	// generate a new VBO and get the associated ID
 	glGenBuffers(3, ids);
-	getGlError("Object::loadModel() line:108, glGenBuffers");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	// bind VBO in order to use
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	getGlError("Object::loadModel() line:111, glBindBuffers id 0");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 352 * 3, mVerticies, GL_DYNAMIC_DRAW);
-	getGlError("Object::loadModel() line:119, glBufferData verts");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 352 * 3, mVerticies);
 	
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	getGlError("Object::loadModel() line:113, glBindBuffers id 1");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 291 * 3, mNormals, GL_DYNAMIC_DRAW);
-	getGlError("Object::loadModel() line:121, glBufferData norms");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 3 * 291, mNormals);
 	
 	
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
-	getGlError("Object::loadModel() line:115, glBindBuffers id 2");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(GLuint) * 638 * 6, mIndicies, GL_DYNAMIC_DRAW);
-	getGlError("Object::loadModel() line:123, glBufferData faces");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 
 	glEnableVertexAttribArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	getGlError("Object::loadModel() line:312, glBindBuffer");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	getGlError("Object::loadModel(), glVertexAttribPointer 0");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	glEnableVertexAttribArray(1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	getGlError("Object::loadModel() line:318, glBindBuffer");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	getGlError("Object::loadModel(), glVertexAttribPointer");
-	
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);	
 	//glBindAttribLocation(p, 0, "vVerts");
 	//getGlError("Object::loadModel() line:151, glBindAttribLocation");
 }
@@ -366,22 +366,7 @@ void Object::draw(Matrix4* viewMat, Matrix4* projMat)
 	//std::cout << lightPosition[0] << std::endl;
 	if(mParentNode)
 	{
-		//mParentNode->rotateNodeLocal(xpos, 0, 0, 1);
-		//mParentNode->rotateNodeLocal(.02, 0, 0, 1);
-		//modelViewMat = (*viewMat) * (mParentNode->_getModelMatrix() * mModelMat);
-		//modelViewMat = (*viewMat) * mParentNode->getWorldTransform() * mModelMat;
-		//modelViewMat = (mParentNode->getWorldTransform() * mModelMat) * (*viewMat);
-		//modelViewMat = (*viewMat) * (mModelMat * mParentNode->_getModelMatrix());
-		//modelViewMat = (mModelMat * mParentNode->_getModelMatrix()) * (*viewMat);
-		//modelViewMat = (mParentNode->_getModelMatrix() * mModelMat) * (*viewMat);
-		//modelViewMat.printMatrix();
-		//std::cout << std::endl;
-		//modelViewMat = (*viewMat) * mParentNode->_getModelMatrix();
-		//modelViewProjMat = (*projMat) * modelViewMat;
 		modelViewProjMat = (*projMat) * (*viewMat).getInverse() * mParentNode->getWorldTransform();// * mModelMat.transpose();
-		//modelViewProjMat = (mParentNode->getWorldTransform() * mModelMat) * (*viewMat) * (*projMat);
-		//modelViewProjMat = (*projMat).transpose() * modelViewMat;
-		//modelViewProjMat =  modelViewMat * (*projMat);
 	}
 	else
 	{
@@ -396,91 +381,51 @@ void Object::draw(Matrix4* viewMat, Matrix4* projMat)
 	//mNormalMat.printMatrix();
 	//std::cout << std::endl;
 	glUseProgram(p);
-	getGlError("Object::draw() line:349, glUseProgram");
-	
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+
 	glUniform3f(mVpLight1, lightPosition[0], lightPosition[1], lightPosition[2]);
-	getGlError("Object::draw() line:329, glUniform3f");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniform3f(mVpLight2, lightPosition2[0], lightPosition2[1], lightPosition2[2]);
-	getGlError("Object::draw() line:331, glUniform3f");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+
 	glUniform1i(mNumLights, 2);
-	getGlError("Object::draw() line:333, glUniform1i");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniform1i(mFpNumLights, 2);
-	getGlError("Object::draw() line:335, glUniform1i");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glUniform3f(mLight1Ptr, lightPosition[0], lightPosition[1], lightPosition[2]);
-	getGlError("Object::draw() line:335, glUniform1i");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix3fv(mWorldRotPtr, 1, GL_FALSE, modelViewMat.extractRotationMatrix().getData());
-	getGlError("Object::draw() line:335, glUniform1i");
-	glUniformMatrix4fv(mWMatrixPtr, 1, GL_FALSE, modelViewMat.getData());
-	getGlError("Object::draw() line:335, glUniform1i");
-	glUniformMatrix4fv(mMVMatPtr, 1, GL_FALSE, modelViewMat.getData());
-	getGlError("Object::draw() line:335, glUniform4fv");
-	glUniform3f(mCamPosPtr, (*viewMat)[12], (*viewMat)[13], (*viewMat)[14]);
-	getGlError("Object::draw() line:335, glUniform13f");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
+	glUniformMatrix4fv(mWMatrixPtr, 1, GL_FALSE, modelViewMat.getData());
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	glUniformMatrix4fv(mMVMatPtr, 1, GL_FALSE, modelViewMat.getData());
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	glUniform3f(mCamPosPtr, (*viewMat)[12], (*viewMat)[13], (*viewMat)[14]);
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	//Matrix uniforms
 	glUniformMatrix4fv(mMVPMptr, 1, GL_FALSE, modelViewProjMat.getData());
-	getGlError("Object::draw() line:343, glUniformMatrix4fv");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix4fv(mMMat, 1, GL_FALSE, (mModelMat * mParentNode->getWorldTransform()).getData());
-	getGlError("Object::draw() line:343, glUniformMatrix4fv");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix4fv(mMVMptr, 1, GL_FALSE, modelViewMat.getData());
-	getGlError("Object::draw() line:346, glUniformMatrix4fv");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix3fv(mNMptr, 1, GL_FALSE, mNormalMat.getData());
-	getGlError("Object::draw() line:347, glUniformMatrix3fv");
-
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	getGlError("Object::draw() line:349, glBindBuffer");
-	//glVertexPointer(3, GL_FLOAT, 0, (GLvoid*) 0);
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	getGlError("Object::draw() line:349, glBindBuffer");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
-	getGlError("Object::draw() line:349, glBindBuffer");
-	//glNormalPointer(GL_FLOAT, 0, (GLvoid*) 0);
-	//glRotatef(-3.141592f/2.0f, 1, 0, 0);
-	//glDrawElements(GL_LINE_STRIP, 638*3, GL_UNSIGNED_INT, 0);
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glDrawElements(GL_TRIANGLES, mNumFaces*3, GL_UNSIGNED_INT, 0);
-	getGlError("Object::draw() line:349, glDrawElements");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	//glUseProgram(NULL);
 
-}
-
-void Object::getGlError(std::string errTxt, int lineNum)
-{
-	int err = glGetError();
-	if(err != GL_NO_ERROR)
-	{
-		std::cout << errTxt << std::endl;
-		if(err == GL_INVALID_ENUM)
-		{
-			std::cout << "GL_INVALID_ENUM at line: " << lineNum << std::endl;
-		}
-		else if(err == GL_INVALID_VALUE)
-		{
-			std::cout << "GL_INVALID_VALUE at line: " << lineNum << std::endl;
-		}
-		else if(err == GL_INVALID_OPERATION)
-		{
-			std::cout << "GL_INVALID_OPERATION at line: " << lineNum << std::endl;
-		}
-		//else if(err == GL_STACK_OVERFLOW)
-		//{
-		//	std::cout << "GL_STACK_OVERFLOW" << std::endl;
-		//}
-		//else if(err == GL_STACK_UNDERFLOW)
-		//{
-		//	std::cout << "GL_STACK_UNDERFLOW" << std::endl;
-		//}
-		else if(err == GL_OUT_OF_MEMORY)
-		{
-			std::cout << "GL_OUT_OF_MEMORY at line: " << lineNum << std::endl;
-		}
-		//else if(err == GL_TABLE_TOO_LARGE)
-		//{
-		//	std::cout << "GL_TABLE_TOO_LARGE" << std::endl;
-		//}
-	}
 }
 
 void Object::setParentNode(Node *node)
@@ -534,15 +479,15 @@ void Object::setupShaders()
 	p = glCreateProgram();
 	
 	glAttachShader(p, v);
-	getGlError("Object::setupShaders() line:496, glAttachShader");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glAttachShader(p, f);
-	getGlError("Object::setupShaders() line:498, glAttachShader");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glBindAttribLocation(p, 0, "vVert");
-	getGlError("Object::setupShaders() line:425, glBindAttribLocation");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glBindAttribLocation(p, 1, "vNorm");
-	getGlError("Object::setupShaders() line:428, glBindAttribLocation");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	//glVertexAttribDivisorARB(2, 3);
 	//getGlError("RenderWindow::setupShaders() line:336, glVertexAttribDivisorARB");
 	
@@ -553,7 +498,7 @@ void Object::setupShaders()
 	{
 		char infoLog[4096];
 		glGetProgramInfoLog(p, 4096, NULL, infoLog);
-		getGlError("Objet::setupShaders() line:438, glGetShaderInfoLog");
+		Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 		std::cout << "Link failed! Error: " << infoLog << std::endl;
 	}
 	
@@ -563,7 +508,7 @@ void Object::setupShaders()
 	{
 		char infoLog[2048];
 		glGetProgramInfoLog(p, 2048, NULL, infoLog);
-		getGlError("Object::setupShaders() line:448, glGetShaderInfoLog");
+		Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 		std::cout << "Program Validation error: " << infoLog << std::endl;
 	}
 	
@@ -572,31 +517,31 @@ void Object::setupShaders()
 	
 	mNumLights = glGetUniformLocation(p, "numLights");
 	mFpNumLights = glGetUniformLocation(p, "fpNumLights");
-	getGlError("Object::setupShaders() line:457, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mFpLightNum = glGetUniformLocation(p, "numLight");
-	getGlError("Object::setupShaders() line:459, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	//matrix uniforms
 	mMVPMptr = glGetUniformLocation(p, "mvpMat");
-	getGlError("Object::setupShaders() line:463, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mMVMptr = glGetUniformLocation(p, "mvMat");
-	getGlError("Object::setupShaders() line:465, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mNMptr = glGetUniformLocation(p, "vNormMat");
-	getGlError("Object::setupShaders() line:467, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	mLight1Ptr = glGetUniformLocation(p, "lightPos1");
-	getGlError("Object::setupShaders() line:467, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mCamPosPtr = glGetUniformLocation(p, "camPos");
-	getGlError("Object::setupShaders() line:467, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mWorldRotPtr = glGetUniformLocation(p, "WorldRot");
-	getGlError("Object::setupShaders() line:467, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mWMatrixPtr = glGetUniformLocation(p, "WMatrix");
-	getGlError("Object::setupShaders() line:467, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mMVMatPtr = glGetUniformLocation(p, "mvMat");
-	getGlError("Object::setupShaders() line:467, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	mMMat = glGetUniformLocation(p, "mMat");
-	getGlError("Object::setupShaders() line:467, Uniform Error");
+	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
 }
 
 std::string Object::readShaderFile(std::string fileName)

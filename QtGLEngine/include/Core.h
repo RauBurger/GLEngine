@@ -51,6 +51,8 @@ public:
 	{
 		return mRenderWindow->getProgram();
 	}
+	
+	static void getGlError(std::string file, std::string func, int lineNum);
 
 private:
 
