@@ -108,6 +108,9 @@ void MyInputHandler::keyUp(KeyCode key)
 
 void MyInputHandler::mouseDown(MouseButton button, float x, float y)
 {
+	mMousePressPos[0] = x;
+	mMousePressPos[1] = y;
+	
 	if(button == LEFT_MOUSE_BUTTON)
 		mLeftMouseDown = true;
 	else if(button == RIGHT_MOUSE_BUTTON)
@@ -122,10 +125,23 @@ void MyInputHandler::mouseUp(MouseButton button, float x, float y)
 		mRightMouseDown = false;
 }
 
-void MyInputHandler::mouseMoved(float xMag, float yMag)
+void MyInputHandler::mouseMoved(float posx, float posy)
 {
 	if(mLeftMouseDown)
 	{
+		//double w = mWindow->getWidth();
+		//double h = mWindow->getHeight();
+		 
+		double curX = (posx * 2. - mWidth) / mWidth;
+		double curY = (mHeight - posy * 2.) / mHeight;
+		double x0 = (mMousePressPos[0] * 2. - mWidth) / mWidth;
+		double y0 = (mHeight - mMousePressPos[1] * 2.) / mHeight;
+		double xMag = x0 - curX;//these mags are reletive to the image (x,y)
+		double yMag = y0 - curY;
+		 
+		mMousePressPos[0] = posx;
+		mMousePressPos[1] = posy;
+
 		mCamNodePitch->rotateNodeLocal(2.0f*yMag, 1.0f, 0.0f, 0.0f);
 		mCamNodeRot->rotateNodeLocal(2.0f*xMag, 0.0f, 1.0f, 0.0f);
 	}
@@ -167,4 +183,14 @@ void MyInputHandler::FrameStart()
 void MyInputHandler::FrameFinished()
 {
 	
+}
+
+void MyInputHandler::setWidth(int width)
+{
+	mWidth = width;
+}
+
+void MyInputHandler::setHeight(int height)
+{
+	mHeight = height;
 }

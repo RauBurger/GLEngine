@@ -20,11 +20,13 @@ public:
 	MyInputHandler();
 	~MyInputHandler();
 	
+	void setWidth(int width);
+	void setHeight(int height);
 	virtual void keyDown(KeyCode key);
 	virtual void keyUp(KeyCode key);
 	virtual void mouseDown(MouseButton button, float x, float y);
 	virtual void mouseUp(MouseButton button, float x, float y);
-	virtual void mouseMoved(float xMag, float yMag);
+	virtual void mouseMoved(float posx, float posy);
 	virtual void scrollWheel(float delta);
 	
 	virtual void FrameStart();
@@ -41,6 +43,11 @@ private:
 	bool mDDown;
 	bool mQDown;
 	bool mEDown;
+	
+	int mWidth;
+	int mHeight;
+	
+	float mMousePressPos[2];
 	
 	Node* mCamNodePitch;
 	Node* mCamNodeRot;

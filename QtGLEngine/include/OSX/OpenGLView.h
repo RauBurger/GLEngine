@@ -17,10 +17,8 @@ class OSXRenderWindow;
 
 @interface OpenGLView : NSView
 {
-	
 	OSXRenderWindow* mWindow;
 	InputHandler* mInputHandler;
-	float mMousePressPos[2];
 }
 
 - (id)initWithFrame:(NSRect)frame;

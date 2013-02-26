@@ -40,6 +40,8 @@ App::App(int argc, char** argv)
 void App::init()
 {
 	mCore->createRenderWindow("Test App", 1280.0f, 720.0f, false);
+	mInputHandler->setWidth(1280);
+	mInputHandler->setHeight(720);
 	mSceneTree = mCore->createSceneTree();
 	mCamera = mCore->createCamera();
 	

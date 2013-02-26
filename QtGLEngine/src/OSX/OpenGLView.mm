@@ -21,7 +21,6 @@
 	{
 		mInputHandler = 0;
 		mWindow = 0;
-		mMousePressPos[0] = 0.0f;
     }
     return self;
 }
@@ -73,10 +72,7 @@
 - (void)mouseDown:(NSEvent *)theEvent
 {
 	NSPoint pos = [self convertPoint:[theEvent locationInWindow] fromView:nil];
-	
-	mMousePressPos[0] = pos.x;
-	mMousePressPos[1] = pos.y;
-	
+
 	if(mInputHandler)
 		mInputHandler->mouseDown(InputHandler::LEFT_MOUSE_BUTTON, pos.x, pos.y);
 	
@@ -93,39 +89,13 @@
 {
 	NSPoint pos = [self convertPoint:[theEvent locationInWindow] fromView:nil];
 	
-	double w = mWindow->getWidth();
-	double h = mWindow->getHeight();
-	
-	double curX = (pos.x * 2. - w) / w;
-	double curY = (h - pos.y * 2.) / h;
-	double x0 = (mMousePressPos[0] * 2. - w) / w;
-	double y0 = (h - mMousePressPos[1] * 2.) / h;
-	double xMag = x0 - curX;//these mags are reletive to the image (x,y)
-	double yMag = y0 - curY;
-	
-	mMousePressPos[0] = pos.x;
-	mMousePressPos[1] = pos.y;
-	
 	if(mInputHandler)
-		mInputHandler->mouseMoved(xMag, yMag);
+		mInputHandler->mouseMoved(pos.x, pos.y);
 }
 
 - (void)mouseMoved:(NSEvent *)theEvent
 {
 	NSPoint pos = [self convertPoint:[theEvent locationInWindow] fromView:nil];
-	
-	double w = mWindow->getWidth();
-	double h = mWindow->getHeight();
-	
-	double curX = (pos.x * 2. - w) / w;
-	double curY = (h - pos.y * 2.) / h;
-	double x0 = (mMousePressPos[0] * 2. - w) / w;
-	double y0 = (h - mMousePressPos[1] * 2.) / h;
-	double xMag = x0 - curX;//these mags are reletive to the image (x,y)
-	double yMag = y0 - curY;
-	
-	mMousePressPos[0] = pos.x;
-	mMousePressPos[1] = pos.y;
 	
 	if(mInputHandler)
 		mInputHandler->mouseMoved(pos.x, pos.y);
