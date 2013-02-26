@@ -8,11 +8,16 @@
 #include <stdlib.h>
 
 #include "GLXRenderWindow.h"
-
+#include "InputHandler.h"
 
 GLXRenderWindow::GLXRenderWindow()
 {
+	mInputHandler = 0;
+}
 
+void GLXRenderWindow::setInputHandler(InputHandler* inputHandler)
+{
+	mInputHandler = inputHandler;
 }
 
 GLXRenderWindow::GLXRenderWindow(string _name, int _w, int _h, bool _fullScreen)
@@ -49,7 +54,7 @@ GLXRenderWindow::GLXRenderWindow(string _name, int _w, int _h, bool _fullScreen)
 	mColorMap = XCreateColormap(mDisplay, mRoot, mVisualInfo->visual, AllocNone);
 
 	mSetWinAttrib.colormap = mColorMap;
-	mSetWinAttrib.event_mask = ExposureMask | KeyPressMask;
+	mSetWinAttrib.event_mask = ExposureMask | KeyPressMask | PointerMotionMask | ButtonPressMask | ButtonReleaseMask;
 
 	mWindow = XCreateWindow(mDisplay, mRoot, 0, 0, _w, _h, 0, mVisualInfo->depth, InputOutput, 
 							mVisualInfo->visual, CWColormap | CWEventMask, &mSetWinAttrib);
@@ -91,10 +96,22 @@ void GLXRenderWindow::_start()
 			XCloseDisplay(mDisplay);
 	   		exit(0);
 		}
+		else if(mXEvent.type == MotionNotify)
+		{
+			if(mInputHandler)
+				mInputHandler->mouseMoved(mXEvent.xmotion.x, mXEvent.xmotion.y);
+		}
+		else if(mXEvent.type == ButtonPress)
+		{
+			//std::cout << "Button Press" << mXEvent.type << std::endl;
+			if(mInputHandler)
+				mInputHandler->mouseDown(InputHandler::LEFT_MOUSE_BUTTON, mXEvent.xbutton.x, mXEvent.xbutton.y);
+		}
+		else if(mXEvent.type == ButtonRelease)
+		{
+			//std::cout << "Button Released" << std::endl;
+			if(mInputHandler)
+				mInputHandler->mouseUp(InputHandler::LEFT_MOUSE_BUTTON, mXEvent.xbutton.x, mXEvent.xbutton.y);
+		}
 	}
-}
-
-void GLXRenderWindow::setInputHandler(InputHandler* inputHandler)
-{
-
 }

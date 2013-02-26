@@ -22,9 +22,12 @@ public:
 
 	void _start();
 
-        void setInputHandler(InputHandler* inputHandler);
+	void setInputHandler(InputHandler* inputHandler);
 private:
 	void setupRenderWindow();
+
+
+	InputHandler* mInputHandler;
 
 	//=====Window Params=====//
 	Display* mDisplay;

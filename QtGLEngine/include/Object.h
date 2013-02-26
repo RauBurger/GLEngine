@@ -79,7 +79,7 @@ protected:
 	GLuint p;
 	
 	GLuint mVpLight1;
-	GLuint mVpLight2;
+ 	GLuint mVpLight2;
 	
 	GLuint mNumLights;
 	GLuint mFpNumLights;
