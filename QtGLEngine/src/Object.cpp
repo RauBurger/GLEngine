@@ -115,10 +115,10 @@ void Object::loadModelPly()
 		}
 	}
 	
-	for(int i = 0; i < verts*3; i += 3)
+	/*for(int i = 0; i < verts*3; i += 3)
 	{
 		std::cout << "(" << mVerticies[i] << ", " << mVerticies[i+1] << ", " << mVerticies[i+2] << ")" << std::endl;
-	}
+	}*/
 	/*for(int i = 0; i < faces*3; i += 3)
 	{
 		std::cout << "<" << mIndicies[i] << ", " << mIndicies[i+1] << ", " << mIndicies[i+2] << ">" << std::endl;
