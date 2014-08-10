@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39CBCDB11998233F0011F12D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F497E16D1C285005F474E /* OpenGL.framework */; };
+		39CBCDB2199823530011F12D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F495916D1C22A005F474E /* Cocoa.framework */; };
 		B225865A16D1CF2F0056C5E9 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B225865716D1CF2F0056C5E9 /* app.cpp */; };
 		B225865B16D1CF2F0056C5E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B225865816D1CF2F0056C5E9 /* main.cpp */; };
 		B225865C16D1CF2F0056C5E9 /* myinputhandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B225865916D1CF2F0056C5E9 /* myinputhandler.cpp */; };
-		B225865E16D1CF3A0056C5E9 /* TestApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B225865D16D1CF3A0056C5E9 /* TestApp-Info.plist */; };
 		B225866316D1CF420056C5E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B225865F16D1CF420056C5E9 /* Credits.rtf */; };
 		B225866416D1CF420056C5E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B225866116D1CF420056C5E9 /* InfoPlist.strings */; };
 		B225867316D1CF5D0056C5E9 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B225866516D1CF5D0056C5E9 /* Camera.cpp */; };
@@ -30,7 +31,6 @@
 		B225868316D1CF6D0056C5E9 /* OpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B225868116D1CF6D0056C5E9 /* OpenGLView.mm */; };
 		B225868416D1CF6D0056C5E9 /* OSXRenderWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = B225868216D1CF6D0056C5E9 /* OSXRenderWindow.mm */; };
 		B225869316D1CF7F0056C5E9 /* Camera.h in Headers */ = {isa = PBXBuildFile; fileRef = B225868516D1CF7F0056C5E9 /* Camera.h */; };
-		B225869416D1CF7F0056C5E9 /* canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = B225868616D1CF7F0056C5E9 /* canvas.h */; };
 		B225869516D1CF7F0056C5E9 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = B225868716D1CF7F0056C5E9 /* Core.h */; };
 		B225869616D1CF7F0056C5E9 /* cubeprimitive.h in Headers */ = {isa = PBXBuildFile; fileRef = B225868816D1CF7F0056C5E9 /* cubeprimitive.h */; };
 		B225869716D1CF7F0056C5E9 /* EventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = B225868916D1CF7F0056C5E9 /* EventListener.h */; };
@@ -58,9 +58,7 @@
 		B27F497F16D1C285005F474E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F497E16D1C285005F474E /* OpenGL.framework */; };
 		B27F498116D1C4CA005F474E /* libfreeimage-3.14.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F498016D1C4CA005F474E /* libfreeimage-3.14.1.dylib */; };
 		B27F498216D1C4FE005F474E /* GLEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F490116D1C19F005F474E /* GLEngine.dylib */; };
-		B27F498616D1C61E005F474E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F498516D1C61E005F474E /* OpenGL.framework */; };
 		B27F498716D1C633005F474E /* libfreeimage-3.14.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F498016D1C4CA005F474E /* libfreeimage-3.14.1.dylib */; };
-		B27F498916D1C674005F474E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F498816D1C674005F474E /* Cocoa.framework */; };
 		B27F499916D1C94C005F474E /* libfreeimage-3.14.1.dylib in Resources */ = {isa = PBXBuildFile; fileRef = B27F498016D1C4CA005F474E /* libfreeimage-3.14.1.dylib */; };
 /* End PBXBuildFile section */
 
@@ -83,49 +81,48 @@
 		B225865D16D1CF3A0056C5E9 /* TestApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
 		B225866016D1CF420056C5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		B225866216D1CF420056C5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B225866516D1CF5D0056C5E9 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = QtGLEngine/src/Camera.cpp; sourceTree = SOURCE_ROOT; };
-		B225866616D1CF5D0056C5E9 /* canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = canvas.cpp; path = QtGLEngine/src/canvas.cpp; sourceTree = SOURCE_ROOT; };
-		B225866716D1CF5D0056C5E9 /* Core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Core.cpp; path = QtGLEngine/src/Core.cpp; sourceTree = SOURCE_ROOT; };
-		B225866816D1CF5D0056C5E9 /* cubeprimitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cubeprimitive.cpp; path = QtGLEngine/src/cubeprimitive.cpp; sourceTree = SOURCE_ROOT; };
-		B225866916D1CF5D0056C5E9 /* Frustrum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Frustrum.cpp; path = QtGLEngine/src/Frustrum.cpp; sourceTree = SOURCE_ROOT; };
-		B225866A16D1CF5D0056C5E9 /* InputHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InputHandler.cpp; path = QtGLEngine/src/InputHandler.cpp; sourceTree = SOURCE_ROOT; };
-		B225866B16D1CF5D0056C5E9 /* Matrix3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix3.cpp; path = QtGLEngine/src/Matrix3.cpp; sourceTree = SOURCE_ROOT; };
-		B225866C16D1CF5D0056C5E9 /* Matrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix4.cpp; path = QtGLEngine/src/Matrix4.cpp; sourceTree = SOURCE_ROOT; };
-		B225866D16D1CF5D0056C5E9 /* moc_canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_canvas.cpp; path = QtGLEngine/src/moc_canvas.cpp; sourceTree = SOURCE_ROOT; };
-		B225866E16D1CF5D0056C5E9 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Node.cpp; path = QtGLEngine/src/Node.cpp; sourceTree = SOURCE_ROOT; };
-		B225866F16D1CF5D0056C5E9 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Object.cpp; path = QtGLEngine/src/Object.cpp; sourceTree = SOURCE_ROOT; };
-		B225867016D1CF5D0056C5E9 /* RenderWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderWindow.cpp; path = QtGLEngine/src/RenderWindow.cpp; sourceTree = SOURCE_ROOT; };
-		B225867116D1CF5D0056C5E9 /* SceneTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneTree.cpp; path = QtGLEngine/src/SceneTree.cpp; sourceTree = SOURCE_ROOT; };
-		B225867216D1CF5D0056C5E9 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = QtGLEngine/src/Vector3.cpp; sourceTree = SOURCE_ROOT; };
-		B225868116D1CF6D0056C5E9 /* OpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLView.mm; path = QtGLEngine/src/OSX/OpenGLView.mm; sourceTree = SOURCE_ROOT; };
-		B225868216D1CF6D0056C5E9 /* OSXRenderWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OSXRenderWindow.mm; path = QtGLEngine/src/OSX/OSXRenderWindow.mm; sourceTree = SOURCE_ROOT; };
-		B225868516D1CF7F0056C5E9 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = QtGLEngine/include/Camera.h; sourceTree = SOURCE_ROOT; };
-		B225868616D1CF7F0056C5E9 /* canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = canvas.h; path = QtGLEngine/include/canvas.h; sourceTree = SOURCE_ROOT; };
-		B225868716D1CF7F0056C5E9 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = QtGLEngine/include/Core.h; sourceTree = SOURCE_ROOT; };
-		B225868816D1CF7F0056C5E9 /* cubeprimitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cubeprimitive.h; path = QtGLEngine/include/cubeprimitive.h; sourceTree = SOURCE_ROOT; };
-		B225868916D1CF7F0056C5E9 /* EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventListener.h; path = QtGLEngine/include/EventListener.h; sourceTree = SOURCE_ROOT; };
-		B225868A16D1CF7F0056C5E9 /* Frustrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Frustrum.h; path = QtGLEngine/include/Frustrum.h; sourceTree = SOURCE_ROOT; };
-		B225868B16D1CF7F0056C5E9 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputHandler.h; path = QtGLEngine/include/InputHandler.h; sourceTree = SOURCE_ROOT; };
-		B225868C16D1CF7F0056C5E9 /* Matrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix3.h; path = QtGLEngine/include/Matrix3.h; sourceTree = SOURCE_ROOT; };
-		B225868D16D1CF7F0056C5E9 /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix4.h; path = QtGLEngine/include/Matrix4.h; sourceTree = SOURCE_ROOT; };
-		B225868E16D1CF7F0056C5E9 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = QtGLEngine/include/Node.h; sourceTree = SOURCE_ROOT; };
-		B225868F16D1CF7F0056C5E9 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object.h; path = QtGLEngine/include/Object.h; sourceTree = SOURCE_ROOT; };
-		B225869016D1CF7F0056C5E9 /* RenderWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderWindow.h; path = QtGLEngine/include/RenderWindow.h; sourceTree = SOURCE_ROOT; };
-		B225869116D1CF7F0056C5E9 /* SceneTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneTree.h; path = QtGLEngine/include/SceneTree.h; sourceTree = SOURCE_ROOT; };
-		B225869216D1CF7F0056C5E9 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = QtGLEngine/include/Vector3.h; sourceTree = SOURCE_ROOT; };
-		B22586A116D1CF8A0056C5E9 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLView.h; path = QtGLEngine/include/OSX/OpenGLView.h; sourceTree = SOURCE_ROOT; };
-		B22586A216D1CF8A0056C5E9 /* OSXRenderWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXRenderWindow.h; path = QtGLEngine/include/OSX/OSXRenderWindow.h; sourceTree = SOURCE_ROOT; };
-		B22586A516D1CFA50056C5E9 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = QtGLEngine/tinyxml/tinystr.cpp; sourceTree = SOURCE_ROOT; };
-		B22586A616D1CFA50056C5E9 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = QtGLEngine/tinyxml/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
-		B22586A716D1CFA50056C5E9 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = QtGLEngine/tinyxml/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
-		B22586A816D1CFA50056C5E9 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = QtGLEngine/tinyxml/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
-		B22586AD16D1CFB80056C5E9 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = QtGLEngine/tinyxml/tinystr.h; sourceTree = SOURCE_ROOT; };
-		B22586AE16D1CFB80056C5E9 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = QtGLEngine/tinyxml/tinyxml.h; sourceTree = SOURCE_ROOT; };
+		B225866516D1CF5D0056C5E9 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = GLEngine/src/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		B225866616D1CF5D0056C5E9 /* canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = canvas.cpp; path = GLEngine/src/canvas.cpp; sourceTree = SOURCE_ROOT; };
+		B225866716D1CF5D0056C5E9 /* Core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Core.cpp; path = GLEngine/src/Core.cpp; sourceTree = SOURCE_ROOT; };
+		B225866816D1CF5D0056C5E9 /* cubeprimitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cubeprimitive.cpp; path = GLEngine/src/cubeprimitive.cpp; sourceTree = SOURCE_ROOT; };
+		B225866916D1CF5D0056C5E9 /* Frustrum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Frustrum.cpp; path = GLEngine/src/Frustrum.cpp; sourceTree = SOURCE_ROOT; };
+		B225866A16D1CF5D0056C5E9 /* InputHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InputHandler.cpp; path = GLEngine/src/InputHandler.cpp; sourceTree = SOURCE_ROOT; };
+		B225866B16D1CF5D0056C5E9 /* Matrix3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix3.cpp; path = GLEngine/src/Matrix3.cpp; sourceTree = SOURCE_ROOT; };
+		B225866C16D1CF5D0056C5E9 /* Matrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix4.cpp; path = GLEngine/src/Matrix4.cpp; sourceTree = SOURCE_ROOT; };
+		B225866D16D1CF5D0056C5E9 /* moc_canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_canvas.cpp; path = GLEngine/src/moc_canvas.cpp; sourceTree = SOURCE_ROOT; };
+		B225866E16D1CF5D0056C5E9 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Node.cpp; path = GLEngine/src/Node.cpp; sourceTree = SOURCE_ROOT; };
+		B225866F16D1CF5D0056C5E9 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Object.cpp; path = GLEngine/src/Object.cpp; sourceTree = SOURCE_ROOT; };
+		B225867016D1CF5D0056C5E9 /* RenderWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderWindow.cpp; path = GLEngine/src/RenderWindow.cpp; sourceTree = SOURCE_ROOT; };
+		B225867116D1CF5D0056C5E9 /* SceneTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneTree.cpp; path = GLEngine/src/SceneTree.cpp; sourceTree = SOURCE_ROOT; };
+		B225867216D1CF5D0056C5E9 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = GLEngine/src/Vector3.cpp; sourceTree = SOURCE_ROOT; };
+		B225868116D1CF6D0056C5E9 /* OpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLView.mm; path = GLEngine/src/OSX/OpenGLView.mm; sourceTree = SOURCE_ROOT; };
+		B225868216D1CF6D0056C5E9 /* OSXRenderWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OSXRenderWindow.mm; path = GLEngine/src/OSX/OSXRenderWindow.mm; sourceTree = SOURCE_ROOT; };
+		B225868516D1CF7F0056C5E9 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = GLEngine/include/Camera.h; sourceTree = SOURCE_ROOT; };
+		B225868716D1CF7F0056C5E9 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = GLEngine/include/Core.h; sourceTree = SOURCE_ROOT; };
+		B225868816D1CF7F0056C5E9 /* cubeprimitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cubeprimitive.h; path = GLEngine/include/cubeprimitive.h; sourceTree = SOURCE_ROOT; };
+		B225868916D1CF7F0056C5E9 /* EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventListener.h; path = GLEngine/include/EventListener.h; sourceTree = SOURCE_ROOT; };
+		B225868A16D1CF7F0056C5E9 /* Frustrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Frustrum.h; path = GLEngine/include/Frustrum.h; sourceTree = SOURCE_ROOT; };
+		B225868B16D1CF7F0056C5E9 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputHandler.h; path = GLEngine/include/InputHandler.h; sourceTree = SOURCE_ROOT; };
+		B225868C16D1CF7F0056C5E9 /* Matrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix3.h; path = GLEngine/include/Matrix3.h; sourceTree = SOURCE_ROOT; };
+		B225868D16D1CF7F0056C5E9 /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix4.h; path = GLEngine/include/Matrix4.h; sourceTree = SOURCE_ROOT; };
+		B225868E16D1CF7F0056C5E9 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = GLEngine/include/Node.h; sourceTree = SOURCE_ROOT; };
+		B225868F16D1CF7F0056C5E9 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object.h; path = GLEngine/include/Object.h; sourceTree = SOURCE_ROOT; };
+		B225869016D1CF7F0056C5E9 /* RenderWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderWindow.h; path = GLEngine/include/RenderWindow.h; sourceTree = SOURCE_ROOT; };
+		B225869116D1CF7F0056C5E9 /* SceneTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneTree.h; path = GLEngine/include/SceneTree.h; sourceTree = SOURCE_ROOT; };
+		B225869216D1CF7F0056C5E9 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = GLEngine/include/Vector3.h; sourceTree = SOURCE_ROOT; };
+		B22586A116D1CF8A0056C5E9 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLView.h; path = GLEngine/include/OSX/OpenGLView.h; sourceTree = SOURCE_ROOT; };
+		B22586A216D1CF8A0056C5E9 /* OSXRenderWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSXRenderWindow.h; path = GLEngine/include/OSX/OSXRenderWindow.h; sourceTree = SOURCE_ROOT; };
+		B22586A516D1CFA50056C5E9 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = GLEngine/tinyxml/tinystr.cpp; sourceTree = SOURCE_ROOT; };
+		B22586A616D1CFA50056C5E9 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = GLEngine/tinyxml/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
+		B22586A716D1CFA50056C5E9 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = GLEngine/tinyxml/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
+		B22586A816D1CFA50056C5E9 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = GLEngine/tinyxml/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
+		B22586AD16D1CFB80056C5E9 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = GLEngine/tinyxml/tinystr.h; sourceTree = SOURCE_ROOT; };
+		B22586AE16D1CFB80056C5E9 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = GLEngine/tinyxml/tinyxml.h; sourceTree = SOURCE_ROOT; };
 		B22586B116D1CFCC0056C5E9 /* fragmentMP.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = fragmentMP.fs; path = TestApp/data/shaders/fragmentMP.fs; sourceTree = "<group>"; };
 		B22586B216D1CFCC0056C5E9 /* vertexMP.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = vertexMP.vs; path = TestApp/data/shaders/vertexMP.vs; sourceTree = "<group>"; };
-		B22586B516D1CFE50056C5E9 /* GLEngineProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = GLEngineProj.xcconfig; path = QtGLEngine/GLEngineProj.xcconfig; sourceTree = SOURCE_ROOT; };
-		B22586B616D1CFE50056C5E9 /* GLEngineTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = GLEngineTarget.xcconfig; path = QtGLEngine/GLEngineTarget.xcconfig; sourceTree = SOURCE_ROOT; };
-		B22586B716D1D0070056C5E9 /* GLEngine-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLEngine-Prefix.pch"; path = "QtGLEngine/GLEngine-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		B22586B516D1CFE50056C5E9 /* GLEngineProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = GLEngineProj.xcconfig; path = GLEngine/GLEngineProj.xcconfig; sourceTree = SOURCE_ROOT; };
+		B22586B616D1CFE50056C5E9 /* GLEngineTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = GLEngineTarget.xcconfig; path = GLEngine/GLEngineTarget.xcconfig; sourceTree = SOURCE_ROOT; };
+		B22586B716D1D0070056C5E9 /* GLEngine-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLEngine-Prefix.pch"; path = "GLEngine/GLEngine-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		B27F490116D1C19F005F474E /* GLEngine.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = GLEngine.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27F495716D1C22A005F474E /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27F495916D1C22A005F474E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -134,8 +131,6 @@
 		B27F495E16D1C22A005F474E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B27F497E16D1C285005F474E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		B27F498016D1C4CA005F474E /* libfreeimage-3.14.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libfreeimage-3.14.1.dylib"; path = "/usr/local/lib/libfreeimage-3.14.1.dylib"; sourceTree = "<absolute>"; };
-		B27F498516D1C61E005F474E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
-		B27F498816D1C674005F474E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +138,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B27F498916D1C674005F474E /* Cocoa.framework in Frameworks */,
 				B27F498716D1C633005F474E /* libfreeimage-3.14.1.dylib in Frameworks */,
-				B27F498616D1C61E005F474E /* OpenGL.framework in Frameworks */,
+				39CBCDB11998233F0011F12D /* OpenGL.framework in Frameworks */,
+				39CBCDB2199823530011F12D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				B29006C716D1CC3700C8B3C9 /* Shaders */,
-				B27F498816D1C674005F474E /* Cocoa.framework */,
-				B27F498516D1C61E005F474E /* OpenGL.framework */,
 				B27F490316D1C19F005F474E /* GLEngine */,
 				B27F495F16D1C22A005F474E /* TestApp */,
 				B27F495816D1C22A005F474E /* Frameworks */,
@@ -235,7 +228,6 @@
 				B22586A116D1CF8A0056C5E9 /* OpenGLView.h */,
 				B22586A216D1CF8A0056C5E9 /* OSXRenderWindow.h */,
 				B225868516D1CF7F0056C5E9 /* Camera.h */,
-				B225868616D1CF7F0056C5E9 /* canvas.h */,
 				B225868716D1CF7F0056C5E9 /* Core.h */,
 				B225868816D1CF7F0056C5E9 /* cubeprimitive.h */,
 				B225868916D1CF7F0056C5E9 /* EventListener.h */,
@@ -358,7 +350,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B225869316D1CF7F0056C5E9 /* Camera.h in Headers */,
-				B225869416D1CF7F0056C5E9 /* canvas.h in Headers */,
 				B225869516D1CF7F0056C5E9 /* Core.h in Headers */,
 				B225869616D1CF7F0056C5E9 /* cubeprimitive.h in Headers */,
 				B225869716D1CF7F0056C5E9 /* EventListener.h in Headers */,
@@ -423,7 +414,7 @@
 		B27F48F916D1C19F005F474E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rob Rau";
 			};
 			buildConfigurationList = B27F48FC16D1C19F005F474E /* Build configuration list for PBXProject "GLEngine" */;
@@ -452,7 +443,6 @@
 				B22586B916D1D0320056C5E9 /* fragmentMP.fs in Resources */,
 				B22586BA16D1D0320056C5E9 /* vertexMP.vs in Resources */,
 				B27F499916D1C94C005F474E /* libfreeimage-3.14.1.dylib in Resources */,
-				B225865E16D1CF3A0056C5E9 /* TestApp-Info.plist in Resources */,
 				B225866316D1CF420056C5E9 /* Credits.rtf in Resources */,
 				B225866416D1CF420056C5E9 /* InfoPlist.strings in Resources */,
 			);
@@ -532,9 +522,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -557,7 +546,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -565,9 +554,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -583,42 +571,45 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		B27F490F16D1C19F005F474E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		B27F491016D1C19F005F474E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		B27F497216D1C22A005F474E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -627,7 +618,7 @@
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -636,7 +627,6 @@
 		B27F497316D1C22A005F474E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -645,7 +635,7 @@
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
