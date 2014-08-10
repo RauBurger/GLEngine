@@ -36,7 +36,7 @@ OSXRenderWindow::OSXRenderWindow()
 	[[NSRunLoop currentRunLoop]addTimer:(NSTimer*)mTimer forMode:NSEventTrackingRunLoopMode];
 
 
-	mObjects = 0;
+	//mObjects = 0;
 	mNumObjects = 0;
 }
 
@@ -60,7 +60,7 @@ OSXRenderWindow::OSXRenderWindow(string _name, int _w, int _h, bool _fullScreen)
 	[[NSRunLoop currentRunLoop]addTimer:(NSTimer*)mTimer forMode:NSEventTrackingRunLoopMode];
 	
 		
-	mObjects = 0;
+	//mObjects = 0;
 	mNumObjects = 0;
 }
 

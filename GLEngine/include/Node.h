@@ -12,7 +12,7 @@
 #include "Object.h"
 #include "Matrix4.h"
 
-#ifdef __LINUX__
+#if defined __linux || defined __APPLE__
 class __attribute__ ((visibility("default"))) Node
 #elif _WIN32
 class Node

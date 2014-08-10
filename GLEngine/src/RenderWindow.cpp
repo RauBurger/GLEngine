@@ -184,7 +184,7 @@ void RenderWindow::render()
 			mObjects[k]->draw(mWorldViewMatrix, mFrustrum->getProjectionMatrix());
 		}
 		*/
-		for (ObjectIterator& it = mObjects.begin(); it != mObjects.end(); it++)
+		for (ObjectIterator it = mObjects.begin(); it != mObjects.end(); it++)
 		{
 			it->second->draw(mWorldViewMatrix, mFrustrum->getProjectionMatrix());
 		}
