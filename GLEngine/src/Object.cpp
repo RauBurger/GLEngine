@@ -48,6 +48,8 @@ void Object::loadModelPly()
 	//model.open("/motorcycleFairing2_5x.ply");
 #ifdef __linux
 	model.open("/home/rrau/GLEngine/TestApp/data/models/house.ply");
+//#elif _WIN32
+//	model.open("C:\\Users\\Rob\ Rau\\GLEngine\\TestApp\\data\\models\\huose.ply");
 #else
 	model.open("/house.ply");
 #endif
@@ -139,26 +141,26 @@ void Object::loadModelPly()
 	glBindVertexArray(mVertArrayObj);
 	// generate a new VBO and get the associated ID
 	glGenBuffers(3, ids);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	// bind VBO in order to use
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * verts * 3, mVerticies, GL_STATIC_DRAW);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	//glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * verts * 3, mVerticies);
 	
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * verts * 3, mNormals, GL_STATIC_DRAW);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	//glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 3 * verts, mNormals);
 	
 	
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(GLuint) * faces * 3, mIndicies, GL_STATIC_DRAW);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	int maxAttrib;
 	glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &maxAttrib);
@@ -166,18 +168,18 @@ void Object::loadModelPly()
 	
 	
 	glEnableVertexAttribArray(0);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glEnableVertexAttribArray(1);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 }
 /*
 void Object::loadModelx3d()
@@ -308,39 +310,39 @@ void Object::loadModel()
 	
 	// generate a new VBO and get the associated ID
 	glGenBuffers(3, ids);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	// bind VBO in order to use
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 352 * 3, mVerticies, GL_DYNAMIC_DRAW);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 352 * 3, mVerticies);
 	
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 291 * 3, mNormals, GL_DYNAMIC_DRAW);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(GLfloat) * 3 * 291, mNormals);
 	
 	
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(GLuint) * 638 * 6, mIndicies, GL_DYNAMIC_DRAW);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 
 	glEnableVertexAttribArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	glEnableVertexAttribArray(1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);	
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);	
 	//glBindAttribLocation(p, 0, "vVerts");
 	//getGlError("Object::loadModel() line:151, glBindAttribLocation");
 }
@@ -380,50 +382,54 @@ void Object::draw(Matrix4* viewMat, Matrix4* projMat)
 	mNormalMat = (mParentNode->getWorldTransform() * mModelMat).extractRotationMatrix();
 	//mNormalMat.printMatrix();
 	//std::cout << std::endl;
+	if (glIsProgram(p) != GL_TRUE)
+	{
+		setupShaders();
+	}
 	glUseProgram(p);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	glUniform3f(mVpLight1, lightPosition[0], lightPosition[1], lightPosition[2]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniform3f(mVpLight2, lightPosition2[0], lightPosition2[1], lightPosition2[2]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	glUniform1i(mNumLights, 2);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniform1i(mFpNumLights, 2);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glUniform3f(mLight1Ptr, lightPosition[0], lightPosition[1], lightPosition[2]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix3fv(mWorldRotPtr, 1, GL_FALSE, modelViewMat.extractRotationMatrix().getData());
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glUniformMatrix4fv(mWMatrixPtr, 1, GL_FALSE, modelViewMat.getData());
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix4fv(mMVMatPtr, 1, GL_FALSE, modelViewMat.getData());
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniform3f(mCamPosPtr, (*viewMat)[12], (*viewMat)[13], (*viewMat)[14]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	//Matrix uniforms
 	glUniformMatrix4fv(mMVPMptr, 1, GL_FALSE, modelViewProjMat.getData());
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix4fv(mMMat, 1, GL_FALSE, (mModelMat * mParentNode->getWorldTransform()).getData());
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix4fv(mMVMptr, 1, GL_FALSE, modelViewMat.getData());
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glUniformMatrix3fv(mNMptr, 1, GL_FALSE, mNormalMat.getData());
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	glBindBuffer(GL_ARRAY_BUFFER, ids[0]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glBindBuffer(GL_ARRAY_BUFFER, ids[1]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ids[2]);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glDrawElements( GL_TRIANGLES, mNumFaces*3, GL_UNSIGNED_INT, 0);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	//glUseProgram(NULL);
 
 }
@@ -445,6 +451,9 @@ void Object::setupShaders()
 #ifdef __linux
 	vertSrc = readShaderFile("/home/rrau/GLEngine/TestApp/data/shaders/vertexMP.vs");
 	fragSrc = readShaderFile("/home/rrau/GLEngine/TestApp/data/shaders/fragmentMP.fs");
+#elif _WIN32
+	vertSrc = readShaderFile("/vertexMP.vs");
+	fragSrc = readShaderFile("/fragmentMP.fs");
 #else
 	vertSrc = readShaderFile("TestApp.app/Contents/Resources/vertexMP.vs");
 	fragSrc = readShaderFile("TestApp.app/Contents/Resources/fragmentMP.fs");
@@ -479,15 +488,15 @@ void Object::setupShaders()
 	p = glCreateProgram();
 	
 	glAttachShader(p, v);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	glAttachShader(p, f);
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glBindAttribLocation(p, 0, "vVert");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	glBindAttribLocation(p, 1, "vNorm");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	//glVertexAttribDivisorARB(2, 3);
 	//getGlError("RenderWindow::setupShaders() line:336, glVertexAttribDivisorARB");
 	
@@ -498,7 +507,7 @@ void Object::setupShaders()
 	{
 		char infoLog[4096];
 		glGetProgramInfoLog(p, 4096, NULL, infoLog);
-		Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+		Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 		std::cout << "Link failed! Error: " << infoLog << std::endl;
 	}
 	
@@ -508,7 +517,7 @@ void Object::setupShaders()
 	{
 		char infoLog[2048];
 		glGetProgramInfoLog(p, 2048, NULL, infoLog);
-		Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+		Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 		std::cout << "Program Validation error: " << infoLog << std::endl;
 	}
 	
@@ -517,31 +526,31 @@ void Object::setupShaders()
 	
 	mNumLights = glGetUniformLocation(p, "numLights");
 	mFpNumLights = glGetUniformLocation(p, "fpNumLights");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mFpLightNum = glGetUniformLocation(p, "numLight");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	//matrix uniforms
 	mMVPMptr = glGetUniformLocation(p, "mvpMat");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mMVMptr = glGetUniformLocation(p, "mvMat");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mNMptr = glGetUniformLocation(p, "vNormMat");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	
 	mLight1Ptr = glGetUniformLocation(p, "lightPos1");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mCamPosPtr = glGetUniformLocation(p, "camPos");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mWorldRotPtr = glGetUniformLocation(p, "WorldRot");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mWMatrixPtr = glGetUniformLocation(p, "WMatrix");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 	mMVMatPtr = glGetUniformLocation(p, "mvMat");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 
 	mMMat = glGetUniformLocation(p, "mMat");
-	Core::getGlError(__FILE__, __FUNCTION__, __LINE__-1);
+	Core::GetGlError(__FILE__, __FUNCTION__, __LINE__-1);
 }
 
 std::string Object::readShaderFile(std::string fileName)

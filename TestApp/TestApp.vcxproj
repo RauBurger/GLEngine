@@ -55,10 +55,11 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>include;..\GLEngine\include;..\GLEngine\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glew32.lib;GlU32.lib;freeimage.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\FreeImage\Dist;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32d.lib;GlU32.lib;freeimage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\FreeImage\Dist;C:\Users\Rob Rau\GLEngine\GLEngine\glew-1.10.0\lib\Debug\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
@@ -80,12 +81,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\QtGLEngine\main.cpp" />
+    <ClCompile Include="src\app.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\myinputhandler.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QtGLEngine\GLEngine.vcxproj">
+    <ClInclude Include="include\app.h" />
+    <ClInclude Include="include\myinputhandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GLEngine\GLEngine.vcxproj">
       <Project>{78ad40e2-b5e0-4d8a-8d55-de9629e98f40}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

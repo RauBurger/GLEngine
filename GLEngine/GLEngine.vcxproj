@@ -50,7 +50,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v6.0A\Include;C:\FreeImage\Dist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft SDKs\Windows\v6.0A\Include;C:\FreeImage\Dist;include;glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -93,6 +93,7 @@
     <ClInclude Include="include\Core.h" />
     <ClInclude Include="include\EventListener.h" />
     <ClInclude Include="include\Frustrum.h" />
+    <ClInclude Include="include\IDelegate.h" />
     <ClInclude Include="include\InputHandler.h" />
     <ClInclude Include="include\Matrix3.h" />
     <ClInclude Include="include\Matrix4.h" />
@@ -101,6 +102,7 @@
     <ClInclude Include="include\RenderWindow.h" />
     <ClInclude Include="include\SceneTree.h" />
     <ClInclude Include="include\Vector3.h" />
+    <ClInclude Include="include\Win32\ProcessMessageDelegate.h" />
     <ClInclude Include="include\Win32\Win32RenderWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

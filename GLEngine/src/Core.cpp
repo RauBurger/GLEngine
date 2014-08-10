@@ -19,19 +19,19 @@ Core::~Core()
 
 }
 
-RenderWindow* Core::createRenderWindow(string name, int width, int height, bool fullScreen)
+RenderWindow* Core::CreateRenderWindow(string name, int width, int height, bool fullScreen)
 {
 #ifdef __APPLE__
 	mRenderWindow = new OSXRenderWindow(name, width, height, fullScreen);
 #elif __linux
 	mRenderWindow = new GLXRenderWindow(name, width, height, fullScreen);
-#elif __WIN32__
+#elif _WIN32
 	mRenderWindow = new Win32RenderWindow(name, width, height, fullScreen);
 #endif
 	return mRenderWindow;
 }
 
-SceneTree* Core::createSceneTree()
+SceneTree* Core::CreateSceneTree()
 {
 	if(mRenderWindow)
 	{
@@ -41,43 +41,43 @@ SceneTree* Core::createSceneTree()
 	return 0;
 }
 
-void Core::startRendering()
+void Core::StartRendering()
 {
 	mRenderWindow->_start();
 }
 
-Object* Core::createObject(string _name)
+Object* Core::CreateObject(string _name)
 {
 	return mRenderWindow->_newObject(_name);
 }
-
+/*
 void Core::registerObject(string _name, Object* obj)
 {
 	mRenderWindow->_registerObject(_name, obj);
 }
-
-Object* Core::getObject(string _name)
+*/
+Object* Core::GetObject(string _name)
 {
 	return mRenderWindow->_getObject(_name);
 }
 
-Camera* Core::createCamera()
+Camera* Core::CreateCamera()
 {
 	return mRenderWindow->createCamera();
 }
 
-void Core::setInputHandler(InputHandler *inputHandler)
+void Core::SetInputHandler(InputHandler *inputHandler)
 {
 	mRenderWindow->setInputHandler(inputHandler);
 }
 
-void Core::setEventListener(EventListener* eventListener)
+void Core::SetEventListener(EventListener* eventListener)
 {
 	if(mRenderWindow)
 		mRenderWindow->setEventListener(eventListener);
 }
 
-void Core::getGlError(std::string file, std::string func, int lineNum)
+void Core::GetGlError(std::string file, std::string func, int lineNum)
 {
 	int err = glGetError();
 	if(err != GL_NO_ERROR)

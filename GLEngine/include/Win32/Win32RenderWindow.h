@@ -9,6 +9,7 @@
  */
 
 #include "RenderWindow.h"
+#include "Win32/ProcessMessageDelegate.h"
 
 class Win32RenderWindow : public RenderWindow
 {
@@ -20,8 +21,15 @@ public:
 	void update();
 	void _start();
 
+	virtual void setInputHandler(InputHandler* inputHandler);
+
 private:
-	void setupRenderWindow();
+	static ProcessMessageDelegate<Win32RenderWindow>* mProcessMessageDelegate;
+	static LRESULT WindowsCallback(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM	lParam);
+	LRESULT ProcessMessage(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM	lParam);
+	void SetupRenderWindow();
+
+	InputHandler* mInputHandler;
 
 	//=====Window Params=====//
 	HDC			hDC;		// Private GDI Device Context

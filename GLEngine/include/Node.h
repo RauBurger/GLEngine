@@ -12,7 +12,11 @@
 #include "Object.h"
 #include "Matrix4.h"
 
+#ifdef __LINUX__
 class __attribute__ ((visibility("default"))) Node
+#elif _WIN32
+class Node
+#endif
 {
 public:
 	Node(std::string name);

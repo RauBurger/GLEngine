@@ -39,11 +39,11 @@ App::App(int argc, char** argv)
 
 void App::init()
 {
-	mCore->createRenderWindow("Test App", 1280.0f, 720.0f, false);
+	mCore->CreateRenderWindow("Test App", 1280.0f, 720.0f, false);
 	mInputHandler->setWidth(1280);
 	mInputHandler->setHeight(720);
-	mSceneTree = mCore->createSceneTree();
-	mCamera = mCore->createCamera();
+	mSceneTree = mCore->CreateSceneTree();
+	mCamera = mCore->CreateCamera();
 	
 	/*mMainNode = mSceneTree->createNode("MainNode");
 	mCamPitchNode = mSceneTree->createNode("CamPitchNode");
@@ -53,8 +53,8 @@ void App::init()
 	mCamPitchNode = mCamRotNode->createNode("CamPitchNode");
 
 	cout << "Mid init" << endl;
-
-	Object* obj = new Object();
+	
+	Object* obj = mCore->CreateObject("TestObject");
 	//obj->setupShaders();
 	obj->loadModelPly();
 	cout << "Passed loadModelPly" << endl;
@@ -62,8 +62,7 @@ void App::init()
 
 	mSceneTree->getRootNode()->attachObject(obj);
 	//mMainNode->rotateNodeLocal(-3.141592f/2.0f, 1, 0, 0);
-	
-	mCore->registerObject("TestObject", obj);
+
 	mCamPitchNode->attachCamera(mCamera);
 	//mCamNode->translateNodeLocal(0.0f, 0.0f, -55.0f);
 	mCamera->translate(0.0f, 0.0f, 55.0f);
@@ -73,13 +72,13 @@ void App::init()
 	//mMainNode->attachObject(mCamRotNode);
 	
 	mInputHandler->setCamNodes(mCamPitchNode, mCamRotNode);
-	mCore->setInputHandler((InputHandler*)mInputHandler);
-	mCore->setEventListener((EventListener*)mInputHandler);
+	mCore->SetInputHandler((InputHandler*)mInputHandler);
+	mCore->SetEventListener((EventListener*)mInputHandler);
 	cout << "End init" << endl;
 }
 
 int App::Run()
 {
-	mCore->startRendering();
+	mCore->StartRendering();
 	return 0;
 }

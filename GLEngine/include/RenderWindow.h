@@ -29,11 +29,12 @@
 # include "GL/gl.h"
 # include "GL/glx.h"
 # include "GL/glext.h"
-#elif __WIN32__
+#elif _WIN32
 # include <windows.h>
 # include "gl/glew.h"
 # include "gl/gl.h"
 # include "gl/glu.h"
+//#include "gl/gl3.h"
 #endif
 
 #include <string>
@@ -46,7 +47,8 @@
 #include "EventListener.h"
 #include "Frustrum.h"
 
-using namespace std;
+using std::string;
+using std::map;
 
 class Matrix4;
 class InputHandler;
@@ -54,6 +56,7 @@ class InputHandler;
 class RenderWindow
 {
 public:
+	typedef std::map<string, Object*>::iterator ObjectIterator;
 	RenderWindow();
 	RenderWindow(string _name, int _w, int _h, bool _fullScreen);
 	~RenderWindow();
@@ -81,7 +84,7 @@ public:
 	//not recomended for outside use
 	virtual void _start() {}
 	virtual Object* _newObject(string _name);
-	virtual void _registerObject(string _name, Object* obj);
+	//virtual void _registerObject(string _name, Object* obj);
 	virtual Object* _getObject(string _name);
 	virtual void _registerListener(EventListener* _listener);
 	//virtual SceneTree* _createSceneTree();
@@ -113,7 +116,8 @@ protected:
 	//======Renderables=======//
 	int mNumObjects;
 	map<string, int> mObjectNames;
-	Object** mObjects;
+	//Object** mObjects;
+	std::map<string, Object*> mObjects;
 	//Light** lights;
 	Camera* mCamera;
 	

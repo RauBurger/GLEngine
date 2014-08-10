@@ -19,11 +19,12 @@ static GLfloat lightDiffuse2[4] = {0, 0, 0, 1};
 static GLfloat lightSpecular2[4] = {-.7, -.7, -.7, 1};
 static GLfloat lightAmbient2[4] = {-.5, -.5, -.5, 1};
 
-
+using std::endl;
+using std::cout;
 
 RenderWindow::RenderWindow()
 {
-	mObjects = NULL;
+	//mObjects = NULL;
 	mNumObjects = 0;
 	mFrameListener = 0;
 	mWorldViewMatrix = 0;
@@ -38,60 +39,14 @@ RenderWindow::~RenderWindow()
 
 Object* RenderWindow::_newObject(string _name)
 {
-	if(mObjects != NULL)
-	{
-		Object** tmpObj;
-		tmpObj = new Object*[mNumObjects + 1];
-		for(int i = 0; i < mNumObjects; i++)
-		{
-			tmpObj[i] = mObjects[i];
-		}
-		mNumObjects++;
-		delete [] mObjects;
-		mObjects = tmpObj;
-		mObjects[mNumObjects - 1] = new Object();
-		mObjectNames[_name] = mNumObjects - 1;
-		return mObjects[mNumObjects - 1];
-	}
-	else
-	{
-		mNumObjects++;
-		mObjects = new Object*[mNumObjects];
-		mObjects[mNumObjects - 1] = new Object();
-		mObjectNames[_name] = mNumObjects - 1;
-		return mObjects[mNumObjects - 1];
-	}	
-}
-
-void RenderWindow::_registerObject(string _name, Object* obj)
-{
-	
-	if(mObjects != NULL)
-	{
-		Object** tmpObj;
-		tmpObj = new Object*[mNumObjects + 1];
-		for(int i = 0; i < mNumObjects; i++)
-		{
-			tmpObj[i] = mObjects[i];
-		}
-		mNumObjects++;
-		delete [] mObjects;
-		mObjects = tmpObj;
-		mObjects[mNumObjects - 1] = obj;
-		mObjectNames[_name] = mNumObjects - 1;
-	}
-	else
-	{
-		mNumObjects++;
-		mObjects = new Object*[mNumObjects];
-		mObjects[mNumObjects - 1] = obj;
-		mObjectNames[_name] = mNumObjects - 1;
-	}
+	Object* tmpObject = new Object();
+	mObjects.insert(std::pair<string, Object*>(_name, tmpObject));
+	return tmpObject;
 }
 
 Object* RenderWindow::_getObject(string _name)
 {
-	return mObjects[mObjectNames[_name]];
+	return mObjects[_name];
 }
 
 void RenderWindow::_setWorldViewMatrixPtr(Matrix4 *viewMatPtr)
@@ -223,12 +178,16 @@ void RenderWindow::render()
 			(*mWorldViewMatrix)[14] = -55;
 			//(*mWorldViewMatrix)[12] = -20;
 		}*/
-		for(int k = 0; k < mNumObjects; k++)
+		/*
+		for (int k = 0; k < mNumObjects; k++)
 		{
 			mObjects[k]->draw(mWorldViewMatrix, mFrustrum->getProjectionMatrix());
 		}
-
-
+		*/
+		for (ObjectIterator& it = mObjects.begin(); it != mObjects.end(); it++)
+		{
+			it->second->draw(mWorldViewMatrix, mFrustrum->getProjectionMatrix());
+		}
 	}
 	
 	//glPushMatrix();
@@ -331,7 +290,7 @@ void RenderWindow::setupShaders()
 
 string RenderWindow::readShaderFile(string fileName)
 {
-	ifstream iFile;
+	std::ifstream iFile;
 	string output;
 	
 	iFile.open(fileName.c_str());

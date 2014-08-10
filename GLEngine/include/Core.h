@@ -14,8 +14,8 @@
 # include "OSXRenderWindow.h"
 #elif __linux
 # include "GLXRenderWindow.h"
-#elif __WIN32__
-# include "Win32RenderWindow.h"
+#elif _WIN32
+# include "Win32/Win32RenderWindow.h"
 #endif
 
 #include <string>
@@ -31,28 +31,28 @@ public:
 	~Core();
 
 	//creates the window to render in (creation may not actually happen yet)
-	RenderWindow* createRenderWindow(string name, int width, int height, bool fullScreen);
+	RenderWindow* CreateRenderWindow(string name, int width, int height, bool fullScreen);
 	
-	SceneTree* createSceneTree();
+	SceneTree* CreateSceneTree();
 	
 	//starts the rendering sequence (actual window creation may happen now)
-	void startRendering();
+	void StartRendering();
 	
 	//Light* createLight();
-	Object* createObject(string _name);
-	void registerObject(string _name, Object* obj);
-	Object* getObject(string _name);
-	Camera* createCamera();
+	Object* CreateObject(string _name);
+	//void registerObject(string _name, Object* obj);
+	Object* GetObject(string _name);
+	Camera* CreateCamera();
 	
-	void setInputHandler(InputHandler* inputHandler);
-	void setEventListener(EventListener* eventListener);
+	void SetInputHandler(InputHandler* inputHandler);
+	void SetEventListener(EventListener* eventListener);
 	
 	GLuint getProgram()
 	{
 		return mRenderWindow->getProgram();
 	}
 	
-	static void getGlError(std::string file, std::string func, int lineNum);
+	static void GetGlError(std::string file, std::string func, int lineNum);
 
 private:
 

@@ -24,7 +24,7 @@
 # include <GL/gl.h>
 # include <GL/glx.h>
 # include <GL/glext.h>
-#elif __WIN32__
+#elif _WIN32
 # include <windows.h>
 # include "gl/glew.h"
 # include "gl/gl.h"
