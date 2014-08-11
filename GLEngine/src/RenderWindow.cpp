@@ -171,7 +171,7 @@ void RenderWindow::render()
 		if(mCamera)
 			mCamera->draw(mWorldViewMatrix);
 
-		glUseProgram(mShaderProgram);
+		//glUseProgram(mShaderProgram);
 
 		/*if(mWorldViewMatrix)
 		{

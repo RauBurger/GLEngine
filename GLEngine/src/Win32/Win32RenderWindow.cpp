@@ -13,7 +13,7 @@ Win32RenderWindow::Win32RenderWindow()
 	hDC = NULL;
 	hRC = NULL;
 	hWnd = NULL;
-
+	done = false;
 	SetupRenderWindow();
 }
 
@@ -22,7 +22,7 @@ Win32RenderWindow::Win32RenderWindow(string _name, int _w, int _h, bool _fullScr
 	hDC = NULL;
 	hRC = NULL;
 	hWnd = NULL;
-
+	done = false;
 	mWidth = _w;
 	mHeight = _h;
 
@@ -31,7 +31,7 @@ Win32RenderWindow::Win32RenderWindow(string _name, int _w, int _h, bool _fullScr
 
 void Win32RenderWindow::_start()
 {
-	while(1)
+	while(!done)
 	{
 		update();
 	}
@@ -45,7 +45,7 @@ void Win32RenderWindow::update()
 	{
 		if (msg.message == WM_QUIT)				// Have We Received A Quit Message?
 		{
-			//done = TRUE;							// If So done=TRUE
+			done = true;							// If So done=TRUE
 		}
 		else									// If Not, Deal With Window Messages
 		{
@@ -223,6 +223,10 @@ LRESULT Win32RenderWindow::ProcessMessage(HWND hWnd, UINT uMsg, WPARAM wParam, L
 {
 	switch (uMsg)									// Check For Windows Messages
 	{
+	case WM_QUIT:
+		done = true;
+		return 0;
+		break;
 	case WM_ACTIVATE:							// Watch For Window Activate Message
 	{
 		// LoWord Can Be WA_INACTIVE, WA_ACTIVE, WA_CLICKACTIVE,
@@ -255,35 +259,40 @@ LRESULT Win32RenderWindow::ProcessMessage(HWND hWnd, UINT uMsg, WPARAM wParam, L
 	case WM_LBUTTONDOWN:
 	{
 		int xPos = GET_X_LPARAM(lParam);
-		int yPos = GET_Y_LPARAM(lParam);
+		int yPos = -GET_Y_LPARAM(lParam);
 
 		mInputHandler->mouseDown(InputHandler::LEFT_MOUSE_BUTTON, xPos, yPos);
+		return 0;
 		break;
 	}
 	case WM_LBUTTONUP:
 	{
 		int xPos = GET_X_LPARAM(lParam);
-		int yPos = GET_Y_LPARAM(lParam);
+		int yPos = -GET_Y_LPARAM(lParam);
 
 		mInputHandler->mouseUp(InputHandler::LEFT_MOUSE_BUTTON, xPos, yPos);
+		return 0;
 		break;
 	}
 	case WM_MOUSEMOVE:
 	{
 		int xPos = GET_X_LPARAM(lParam);
-		int yPos = GET_Y_LPARAM(lParam);
+		int yPos = -GET_Y_LPARAM(lParam);
 
 		mInputHandler->mouseMoved(xPos, yPos);
+		return 0;
 		break;
 	}
 	case WM_KEYDOWN:
 	{
 		mInputHandler->keyDown((InputHandler::KeyCode)wParam);
+		return 0;
 		break;
 	}
 	case WM_KEYUP:
 	{
 		mInputHandler->keyUp((InputHandler::KeyCode)wParam);
+		return 0;
 		break;
 	}
 	}
